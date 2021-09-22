@@ -1,0 +1,126 @@
+h1 {
+    font-family: Domine;
+
+}
+
+img{
+
+    width: 100px;
+}
+
+body{
+    background: rgb(255, 255, 255);
+
+}
+
+*{
+    padding: 0px;
+    margin: 0px;
+
+}
+
+/**
+============================
+Style do menu Lateral
+============================
+**/
+
+#content{
+    display: flex;
+
+}
+
+#Mup{
+    align-items: flex-end;
+    width: 100%;
+
+
+
+}
+
+#Mdown{
+    align-items: flex-end;
+
+
+}
+
+#mae{
+    display: flex;
+
+}
+
+#principal{
+    position: fixed;
+    float: left;
+    width: 220px;
+    height: 100%;
+    background: rgb(223, 219, 219);
+    border-right: 1px solid #e9e9e9;
+    box-shadow: 0 0 15px rgba(0,0,0,.15);
+}
+
+#principal ul{
+    height: 87%;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    align-items: center;
+    padding: 0;
+    margin: 0;
+
+}
+
+
+
+#principal ul li{
+    /*float: left;*/
+    text-align: center;
+    width: 100%;;
+    height: 33%;
+    list-style: none;
+    border-bottom: 3px solid #e9e9e9;
+
+}
+
+#principal ul li a{
+    float: left;
+    width: 100%;
+    height: 80px;
+    text-align: center;
+    color: black;
+    margin-left: 5px;
+    text-decoration: none;
+
+
+}
+
+#principal ul li a i{
+    float: left;
+    height: 40px;
+    width: 40px;    
+    color: inherit;
+    text-align: left;
+    line-height: 90px;
+    font-size: 1.8em;
+
+
+
+}
+
+#principal ul li a h3{
+    float: left;
+    height: 40px;
+    width: 40px;
+    font-family: Domine;
+    font-size: 1.2em;
+    color: inherit;
+    line-height: 90px;
+
+}
+
+#principal ul li a:hover{
+    color: gray;
+
+}
+
+
