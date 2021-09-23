@@ -8,4 +8,7 @@ use Illuminate\Database\Eloquent\Model;
 class guardiao extends Model
 {
     use HasFactory;
+    protected $table = "guardioes";
 }
+
+
