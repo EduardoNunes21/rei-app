@@ -20,5 +20,7 @@ Route::get('/dashboard', function () {
 
 
 Route::get('/guardioes',[Guardioes::class, 'guardioes']);
+Route::post('/guardioes',[Guardioes::class, 'store' ]);
+Route::get('/createG',[Guardioes::class, 'create']);
 
 require __DIR__.'/auth.php';
