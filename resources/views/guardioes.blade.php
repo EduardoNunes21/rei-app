@@ -27,6 +27,13 @@
       .guardiao-info a {
          cursor: pointer;
       }
+
+      .guardiao-info form{
+         display: block;
+
+      }
+
+
    </style>
 
    @foreach ($guardioes as $guardiao)
@@ -36,8 +43,12 @@
             <div class="card-body">
                <h5 class="card-title">{{$guardiao->nome}}</h5>
                <p class="card-job">{{$guardiao->cargo}}</p>
-               <a class="card-link" data-toggle="modal" data-target=".edit-modal-{{$guardiao->id}}">Editar Guardião</a>
-             
+               <a href="#" class="btn btn-info edit-btn"><ion-icon name="create-outline"></ion-icon>Editar</a>
+               <form action="/guardioes/{{$guardiao->id}}" method="post">
+                  @csrf
+                  @method('DELETE')
+                  <button type="submit" class="btn btn-danger delete-btn"><ion-icon name="trash-outline"></ion-icon>Deletar</button>
+               </form>
            </div>
          </div>
      </div>

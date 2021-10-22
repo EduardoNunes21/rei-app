@@ -1,6 +1,7 @@
 <?php
 
 use App\Http\Controllers\Guardioes;
+use App\Http\Controllers\TimeDeSucesso;
 use Illuminate\Support\Facades\Route;
 
 /*
@@ -21,6 +22,7 @@ Route::get('/dashboard', function () {
 
 Route::get('/guardioes',[Guardioes::class, 'guardioes']);
 Route::post('/guardioes',[Guardioes::class, 'store' ]);
-Route::get('/createG',[Guardioes::class, 'create']);
+Route::get('/timedesucesso',[TimeDeSucesso::class, 'show']);
+Route::delete('/guardioes/{id}',[Guardioes::class, 'destroy']);
 
 require __DIR__.'/auth.php';

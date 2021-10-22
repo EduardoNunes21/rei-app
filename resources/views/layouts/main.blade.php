@@ -23,6 +23,10 @@
         <script src="https://kit.fontawesome.com/a206d5de13.js" crossorigin="anonymous"></script>
 
         <script src="/js/scripts.js"></script>
+
+        <!-- Icons -->
+        <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+        <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
         
     </head>
         <body>
@@ -36,6 +40,9 @@
                             <ul class="navbar-nav">
                                 <li class="nav-item">
                                     <a href="/guardioes" class="nav-link">Gardiões</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a href="/timedesucesso" class="nav-link">Time de Sucesso</a>
                                 </li>
                                 <li class="nav-item">
                                     <a href="/dashboard" class="nav-link">Dashboard</a>

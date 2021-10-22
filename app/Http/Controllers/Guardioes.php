@@ -54,4 +54,10 @@ class Guardioes extends Controller
     }
 
     public function update(){}
+
+    public function destroy($id){
+
+        guardiao::findOrFail($id)->delete();
+        return redirect('/guardioes')->with('msg', 'Guardião excluido com sucesso!');
+    }
 }
