@@ -14,7 +14,7 @@ class AddImageToGuardioesTable extends Migration
     public function up()
     {
         Schema::table('guardioes', function (Blueprint $table) {
-            $table->string('image');
+            $table->string('image')->nullable();
         });
     }
 

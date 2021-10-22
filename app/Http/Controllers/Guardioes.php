@@ -18,8 +18,7 @@ class Guardioes extends Controller
     }
 
     public function create(){
-        return view('createG');
-
+        return view('guardioes.form')->with('parametro', 'criar');
     }
 
     public function store(Request $request){
@@ -49,4 +48,10 @@ class Guardioes extends Controller
 
         return redirect('/guardioes')->with('msg', 'Guardião criado com sucesso!');
     }
+
+    public function edit(){
+        return view('guardioes.form')->with('parametro', 'editar');
+    }
+
+    public function update(){}
 }
