@@ -11,9 +11,9 @@ class Guardioes extends Controller
         
 
         $guardioes = guardiao::all();
-
-        return view ('guardioes', ['guardioes' => $guardioes]);
-
+        $guardiao = new guardiao;
+        return view ('guardioes')->with(["guardioes" => $guardioes, "guardiao" => $guardiao]);
+        
 
     }
 
@@ -49,8 +49,12 @@ class Guardioes extends Controller
         return redirect('/guardioes')->with('msg', 'Guardião criado com sucesso!');
     }
 
-    public function edit(){
-        return view('guardioes.form')->with('parametro', 'editar');
+    public function edit($id){
+        $guardioes = guardiao::all();
+        $guardiao = guardiao::findOrFail($id);
+        return view('guardioes')->with(["guardioes" => $guardioes, "guardiao" => $guardiao]);
+        
+
     }
 
     public function update(){}

@@ -20,9 +20,10 @@ Route::get('/dashboard', function () {
 })->middleware(['auth'])->name('dashboard');
 
 
-Route::get('/guardioes',[Guardioes::class, 'guardioes']);
-Route::post('/guardioes',[Guardioes::class, 'store' ]);
-Route::get('/timedesucesso',[TimeDeSucesso::class, 'show']);
-Route::delete('/guardioes/{id}',[Guardioes::class, 'destroy']);
+Route::get('/guardioes',[Guardioes::class, 'guardioes'])->middleware('auth');
+Route::post('/guardioes',[Guardioes::class, 'store' ])->middleware('auth');
+Route::get('/timedesucesso',[TimeDeSucesso::class, 'show'])->middleware('auth');
+Route::delete('/guardioes/{id}',[Guardioes::class, 'destroy'])->middleware('auth');
+Route::get('/guardioes/{id}' ,[Guardioes::class, 'edit'])->middleware('auth');
 
 require __DIR__.'/auth.php';

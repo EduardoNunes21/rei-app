@@ -4,6 +4,8 @@
 
 @section('content')
 
+   
+
    <style>
       .guardiao-card {
          display: flex;
@@ -35,7 +37,8 @@
 
 
    </style>
-
+   
+    
    @foreach ($guardioes as $guardiao)
       <div class="guardiao-card card col-md-3">
          <div class="guardiao-info">
@@ -43,7 +46,7 @@
             <div class="card-body">
                <h5 class="card-title">{{$guardiao->nome}}</h5>
                <p class="card-job">{{$guardiao->cargo}}</p>
-               <a href="#" class="btn btn-info edit-btn"><ion-icon name="create-outline"></ion-icon>Editar</a>
+               <a href="/guardioes/{{ $guardiao->id }}" class="btn btn-info edit-btn"><ion-icon name="create-outline" data-toggle="modal-edit" data-target="modal-edit"></ion-icon>Editar</a>
                <form action="/guardioes/{{$guardiao->id}}" method="post">
                   @csrf
                   @method('DELETE')
@@ -52,9 +55,7 @@
            </div>
          </div>
      </div>
-
-
-    @endforeach
+   @endforeach
 
     
 
@@ -118,33 +119,35 @@
 
       </div>   
 
-
-      @foreach ($guardioes as $guardiao)
-      <div class="modal fade edit-modal-{{$guardiao->id}}" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true">
+      <!-- Editar Guardiao -->
+    
+       <div>
+         <div class="modal-edit fade modal-edit" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true">
                <div class="modal-dialog modal-lg">
                <div class="modal-content">
-
+      
                   <div class="modal-header">
-                     <h5 class="modal-title" id="exampleModalLabel">Gardião</h5>
-                     <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                        <span aria-hidden="true">&times;</span>
-                     </button>
+                       <h5 class="modal-title" id="exampleModalLabel">Guardião</h5>
+                       <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                          <span aria-hidden="true">&times;</span>
+                      </button>
                   </div>
-
-                  <div class="modal-body">
+      
+                   <div class="modal-body">
+                           
+                     <div id="gardiao-edit-container">
                         
-                     <div id="gardiao-crate-container">
-                        <form action="/guardioes" method="POST" enctype="multipart/form-data">
+                        <form action="/guardioes/update {{ $guardiao->id }}" method="put" enctype="multipart/form-data">
                            @csrf
+                           @method('PUT');
                            <div class="form-group">
                               <label for="title">Nome:</label>
-                              <input type="text" class="form-control" id="name" name="name" placeholder="Nome do Gardião">
+                              <input type="text" class="form-control" id="name" name="name" placeholder="Nome do Gardião" value="{{ $guardiao->nome }}">
                            </div>
                            <div class="form-group">
                               <label for="title">Cargo:</label>
                               <input type="text" class="form-control" id="job" name="job" placeholder="Cargo do Gardião">
-                           </div>
-                           <div class="form-group">
+                           </div>                              <div class="form-group">
                               <label for="title">Data de Nascimento:</label>
                               <input type="date" class="form-control" id="birth" name="birth" placeholder="Data de Nascimento do Gardião">
                            </div>
@@ -156,18 +159,24 @@
                               </select>
                            </div>
                            <div>
+                               <!--<img src="/img/guardioes/ {{ $guardiao->image  }}" alt="{{ $guardiao->nome }}" class="img-preview">-->
                               <label for="image">Adicione sua imagem</label>
                               <input type="file" id="image" name="image" class="from-control-file">
                            </div>
                            <input type="submit" class="btn btn-primary" value="Cadastrar Guardião">
                         </form>
                      </div>
-
+   
                   </div>
                   <div class="modal-footer">
                   </div>
                </div>
             </div>
-      @endforeach
-
+         </div>
+      
+            
+      
+      </div>
+      
+     
 @endsection
