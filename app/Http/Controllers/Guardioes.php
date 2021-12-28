@@ -64,4 +64,6 @@ class Guardioes extends Controller
         guardiao::findOrFail($id)->delete();
         return redirect('/guardioes')->with('msg', 'Guardião excluido com sucesso!');
     }
+
+   
 }

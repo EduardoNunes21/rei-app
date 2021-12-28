@@ -1,0 +1,2570 @@
+<?xml version="1.0"?>
+	<?mso-application progid="Excel.Sheet"?> 
+	<Workbook xmlns="urn:schemas-microsoft-com:office:spreadsheet" 
+	xmlns:o="urn:schemas-microsoft-com:office:office" 
+	xmlns:x="urn:schemas-microsoft-com:office:excel" 
+	xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet" 
+	xmlns:html="http://www.w3.org/TR/REC-html40"> 
+	<DocumentProperties xmlns="urn:schemas-microsoft-com:office:office"> 
+	<Version>12.00</Version> 
+	</DocumentProperties> 
+	<ExcelWorkbook xmlns="urn:schemas-microsoft-com:office:excel"> 
+	<WindowHeight>8130</WindowHeight> 
+	<WindowWidth>15135</WindowWidth> 
+	<WindowTopX>120</WindowTopX> 
+	<WindowTopY>45</WindowTopY> 
+	<ProtectStructure>False</ProtectStructure> 
+	<ProtectWindows>False</ProtectWindows> 
+	</ExcelWorkbook> 
+	<Styles>
+		<Style ss:ID="xls-style-1" ss:Name="xls-style-1">
+			<Alignment ss:Vertical="Bottom" ss:Horizontal="Left"/>
+			<Borders>
+				<Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="1" ss:Color="#AAAAAA"/>
+				<Border ss:Position="Left" ss:LineStyle="Continuous" ss:Weight="1" ss:Color="#AAAAAA"/>
+				<Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="1" ss:Color="#AAAAAA"/>
+				<Border ss:Position="Top" ss:LineStyle="Continuous" ss:Weight="1" ss:Color="#AAAAAA"/>
+			</Borders>
+			<Font ss:Color="#000000" />
+			<Interior ss:Color="#E8E8E8" ss:Pattern="Solid"/>
+		</Style>
+		<Style ss:ID="xls-style-2" ss:Name="xls-style-2">
+			<Alignment ss:Vertical="Bottom" ss:Horizontal="Center"/>
+			<Borders>
+				<Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="1" ss:Color="#AAAAAA"/>
+				<Border ss:Position="Left" ss:LineStyle="Continuous" ss:Weight="1" ss:Color="#AAAAAA"/>
+				<Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="1" ss:Color="#AAAAAA"/>
+				<Border ss:Position="Top" ss:LineStyle="Continuous" ss:Weight="1" ss:Color="#AAAAAA"/>
+			</Borders>
+			<Font ss:Color="#000000" />
+			<Interior ss:Color="#FFFFFF" ss:Pattern="Solid"/>
+		</Style>
+		<Style ss:ID="xls-style-3" ss:Name="xls-style-3">
+			<Alignment ss:Vertical="Bottom" ss:Horizontal="Left"/>
+			<Borders>
+				<Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="1" ss:Color="#AAAAAA"/>
+				<Border ss:Position="Left" ss:LineStyle="Continuous" ss:Weight="1" ss:Color="#AAAAAA"/>
+				<Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="1" ss:Color="#AAAAAA"/>
+				<Border ss:Position="Top" ss:LineStyle="Continuous" ss:Weight="1" ss:Color="#AAAAAA"/>
+			</Borders>
+			<Font ss:Color="#000000" />
+			<Interior ss:Color="#FFFFFF" ss:Pattern="Solid"/>
+		</Style>
+		<Style ss:ID="xls-style-4" ss:Name="xls-style-4">
+			<Alignment ss:Vertical="Bottom" ss:Horizontal="Center"/>
+			<Borders>
+				<Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="1" ss:Color="#AAAAAA"/>
+				<Border ss:Position="Left" ss:LineStyle="Continuous" ss:Weight="1" ss:Color="#AAAAAA"/>
+				<Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="1" ss:Color="#AAAAAA"/>
+				<Border ss:Position="Top" ss:LineStyle="Continuous" ss:Weight="1" ss:Color="#AAAAAA"/>
+			</Borders>
+			<Font ss:Color="#000000" />
+			<Interior ss:Color="#FFFFFF" ss:Pattern="Solid"/>
+			<NumberFormat ss:Format="Short Date"/>
+		</Style>
+	<Style ss:ID="time-style" ss:Name="time-style"><Alignment ss:Vertical="Bottom" ss:Horizontal="Center"/><Borders><Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="1" ss:Color="#AAAAAA"/><Border ss:Position="Left" ss:LineStyle="Continuous" ss:Weight="1" ss:Color="#AAAAAA"/><Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="1" ss:Color="#AAAAAA"/><Border ss:Position="Top" ss:LineStyle="Continuous" ss:Weight="1" ss:Color="#AAAAAA"/></Borders><Font ss:Color="#000000" /><Interior ss:Color="#FFFFFF" ss:Pattern="Solid"/><NumberFormat ss:Format="h:mm;@"/></Style>
+</Styles>
+	<Worksheet ss:Name="Sheet1">
+		<Table>
+			<Column ss:Width="49"/>
+			<Column ss:Width="54"/>
+			<Column ss:Width="270"/>
+			<Column ss:Width="216"/>
+			<Column ss:Width="216"/>
+			<Column ss:Width="144"/>
+			<Column ss:Width="216"/>
+			<Column ss:Width="144"/>
+			<Column ss:Width="144"/>
+			<Column ss:Width="144"/>
+			<Column ss:Width="270"/>
+			<Column ss:Width="108"/>
+			<Column ss:Width="108"/>
+			<Row>
+				<Cell ss:StyleID="xls-style-1"><Data ss:Type="String">Ticket</Data></Cell>
+				<Cell ss:StyleID="xls-style-1"><Data ss:Type="String">Tipo</Data></Cell>
+				<Cell ss:StyleID="xls-style-1"><Data ss:Type="String">Assunto</Data></Cell>
+				<Cell ss:StyleID="xls-style-1"><Data ss:Type="String">Organização</Data></Cell>
+				<Cell ss:StyleID="xls-style-1"><Data ss:Type="String">Cliente</Data></Cell>
+				<Cell ss:StyleID="xls-style-1"><Data ss:Type="String">Equipe</Data></Cell>
+				<Cell ss:StyleID="xls-style-1"><Data ss:Type="String">Responsável</Data></Cell>
+				<Cell ss:StyleID="xls-style-1"><Data ss:Type="String">Aberto em</Data></Cell>
+				<Cell ss:StyleID="xls-style-1"><Data ss:Type="String">Resolvido em</Data></Cell>
+				<Cell ss:StyleID="xls-style-1"><Data ss:Type="String">Respondido em</Data></Cell>
+				<Cell ss:StyleID="xls-style-1"><Data ss:Type="String">Pergunta</Data></Cell>
+				<Cell ss:StyleID="xls-style-1"><Data ss:Type="String">Avaliação</Data></Cell>
+				<Cell ss:StyleID="xls-style-1"><Data ss:Type="String">Comentário</Data></Cell>
+			</Row>
+			<Row>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">84228</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">Público</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="String">Desempenho VM APP Useall (192.168.1.154)
+</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="String">CEGERO</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="String">Ronaldo Warmeling</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="String">Time N2 (+S)</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="String">Daniel da Silva Rosa</Data></Cell>
+				<Cell ss:StyleID="xls-style-4"><Data ss:Type="String">19/07/2021 11:40</Data></Cell>
+				<Cell ss:StyleID="xls-style-4"><Data ss:Type="String">12/11/2021 15:26</Data></Cell>
+				<Cell ss:StyleID="xls-style-4"><Data ss:Type="String">24/11/2021 16:16</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="String">Qual sua avaliação para esse atendimento?</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">10</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String"></Data></Cell>
+			</Row>
+			<Row>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">85314</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">Público</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="String">Fechar VPN entre microtik e fortgate</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="String">Setep Construções</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="String">Patrick Domingos</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="String">Time N2 (+S)</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="String">Felippe Cidral</Data></Cell>
+				<Cell ss:StyleID="xls-style-4"><Data ss:Type="String">03/09/2021 15:58</Data></Cell>
+				<Cell ss:StyleID="xls-style-4"><Data ss:Type="String">25/11/2021 14:55</Data></Cell>
+				<Cell ss:StyleID="xls-style-4"><Data ss:Type="String">01/12/2021 07:14</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="String">Qual sua avaliação para esse atendimento?</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">10</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">Muito atencioso</Data></Cell>
+			</Row>
+			<Row>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">85634</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">Público</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="String">UTM - 156 Jaragua Araraquara</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="String">Vialaser Depilação</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="String">Guilherme Mendes Oliveira</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="String">Time N2</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="String">Alexsandro Fabiano dos Passos</Data></Cell>
+				<Cell ss:StyleID="xls-style-4"><Data ss:Type="String">17/09/2021 16:19</Data></Cell>
+				<Cell ss:StyleID="xls-style-4"><Data ss:Type="String">08/11/2021 08:51</Data></Cell>
+				<Cell ss:StyleID="xls-style-4"><Data ss:Type="String">10/11/2021 08:05</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="String">Qual sua avaliação para esse atendimento?</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">9</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">Apesar do tempo para resolução, obtivemos uma solução permanente que resolveu o problema.</Data></Cell>
+			</Row>
+			<Row>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">85785</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">Público</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="String">Ampliação storage servidor Unidade Tubarão Continuação Ticket 84551</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="String">Servitech Serviços Téc. Repres. Ltda</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="String">Eduardo Amante</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="String">Time N2 (+S)</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="String">Daniel da Silva Rosa</Data></Cell>
+				<Cell ss:StyleID="xls-style-4"><Data ss:Type="String">23/09/2021 17:47</Data></Cell>
+				<Cell ss:StyleID="xls-style-4"><Data ss:Type="String">05/11/2021 19:50</Data></Cell>
+				<Cell ss:StyleID="xls-style-4"><Data ss:Type="String">23/11/2021 14:24</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="String">Qual sua avaliação para esse atendimento?</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">10</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String"></Data></Cell>
+			</Row>
+			<Row>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">86164</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">Público</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="String">Fcloud PROC</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="String">PROC</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="String">Carlos - Proc Soluções</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="String">Time N2</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="String">Jonatas Silva</Data></Cell>
+				<Cell ss:StyleID="xls-style-4"><Data ss:Type="String">11/10/2021 10:38</Data></Cell>
+				<Cell ss:StyleID="xls-style-4"><Data ss:Type="String">04/11/2021 18:09</Data></Cell>
+				<Cell ss:StyleID="xls-style-4"><Data ss:Type="String">04/11/2021 14:57</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="String">Qual sua avaliação para esse atendimento?</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">9</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">sim podes fazer o ticket fechou pode abri novamente e pode fazer o aumento de espaço em disco.
+
+ATT</Data></Cell>
+			</Row>
+			<Row>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">86150</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">Público</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="String">Licença Nakivo</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="String">Budny</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="String">Caio Campos</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="String">Time N1 (+S)</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="String">Emanuel Douglas</Data></Cell>
+				<Cell ss:StyleID="xls-style-4"><Data ss:Type="String">11/10/2021 08:55</Data></Cell>
+				<Cell ss:StyleID="xls-style-4"><Data ss:Type="String">10/11/2021 17:40</Data></Cell>
+				<Cell ss:StyleID="xls-style-4"><Data ss:Type="String">17/11/2021 07:25</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="String">Qual sua avaliação para esse atendimento?</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">10</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String"></Data></Cell>
+			</Row>
+			<Row>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">86414</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">Público</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="String">Implantar certificado nos dominio gdmplasticos e mdgfilmes</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="String">Plaszom</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="String">Gustavo Simon Soares</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="String">Time N2</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="String">Alexsandro Fabiano dos Passos</Data></Cell>
+				<Cell ss:StyleID="xls-style-4"><Data ss:Type="String">22/10/2021 17:16</Data></Cell>
+				<Cell ss:StyleID="xls-style-4"><Data ss:Type="String">05/11/2021 15:21</Data></Cell>
+				<Cell ss:StyleID="xls-style-4"><Data ss:Type="String">10/11/2021 15:53</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="String">Qual sua avaliação para esse atendimento?</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">10</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String"></Data></Cell>
+			</Row>
+			<Row>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">86393</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">Público</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="String">Adição de novo link de internet para o IHC.</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="String">Hospital de Caridade</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="String">Gustavo Henrique de Lima</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="String">Time N2 (+S)</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="String">Felippe Cidral</Data></Cell>
+				<Cell ss:StyleID="xls-style-4"><Data ss:Type="String">22/10/2021 11:49</Data></Cell>
+				<Cell ss:StyleID="xls-style-4"><Data ss:Type="String">01/11/2021 14:07</Data></Cell>
+				<Cell ss:StyleID="xls-style-4"><Data ss:Type="String">03/11/2021 15:05</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="String">Qual sua avaliação para esse atendimento?</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">10</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String"></Data></Cell>
+			</Row>
+			<Row>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">86457</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">Público</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="String">Migrar UTM para computador Novo</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="String">Carisma Transportes e Logística</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="String">André da Silva Cardoso</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="String">Time N2</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="String">Jonatas Silva</Data></Cell>
+				<Cell ss:StyleID="xls-style-4"><Data ss:Type="String">26/10/2021 09:11</Data></Cell>
+				<Cell ss:StyleID="xls-style-4"><Data ss:Type="String">24/11/2021 15:12</Data></Cell>
+				<Cell ss:StyleID="xls-style-4"><Data ss:Type="String">25/11/2021 08:20</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="String">Qual sua avaliação para esse atendimento?</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">10</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String"></Data></Cell>
+			</Row>
+			<Row>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">86284</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">Público</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="String">DHCP</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="String">Vancouros</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="String">walter</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="String">Time A</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="String">Henrique Silveira Avila</Data></Cell>
+				<Cell ss:StyleID="xls-style-4"><Data ss:Type="String">18/10/2021 16:54</Data></Cell>
+				<Cell ss:StyleID="xls-style-4"><Data ss:Type="String">01/11/2021 10:46</Data></Cell>
+				<Cell ss:StyleID="xls-style-4"><Data ss:Type="String">03/11/2021 15:11</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="String">Qual sua avaliação para esse atendimento?</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">9</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String"></Data></Cell>
+			</Row>
+			<Row>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">86428</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">Público</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="String">Firewall indisponível - BM3 SLG </Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="String">BM3 Market Solutions</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="String">Paulo Latrônico</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="String">Time A</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="String">Nicolas Costa</Data></Cell>
+				<Cell ss:StyleID="xls-style-4"><Data ss:Type="String">25/10/2021 10:22</Data></Cell>
+				<Cell ss:StyleID="xls-style-4"><Data ss:Type="String">09/11/2021 13:31</Data></Cell>
+				<Cell ss:StyleID="xls-style-4"><Data ss:Type="String">16/11/2021 08:15</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="String">Qual sua avaliação para esse atendimento?</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">10</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String"></Data></Cell>
+			</Row>
+			<Row>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">86454</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">Público</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="String">Problemas com Link</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="String">Neoprene Brasil Ltda</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="String">Paulo Latrônico</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="String">Time A</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="String">Nicolas Costa</Data></Cell>
+				<Cell ss:StyleID="xls-style-4"><Data ss:Type="String">26/10/2021 08:43</Data></Cell>
+				<Cell ss:StyleID="xls-style-4"><Data ss:Type="String">01/11/2021 16:31</Data></Cell>
+				<Cell ss:StyleID="xls-style-4"><Data ss:Type="String">08/11/2021 08:18</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="String">Qual sua avaliação para esse atendimento?</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">10</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">-</Data></Cell>
+			</Row>
+			<Row>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">86306</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">Público</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="String">CRIAÇÃO DE USUÁRIO E LIBERAÇÃO DE PASTA ESPECÍFICA</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="String">Budny</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="String">Caio Campos</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="String">Time N1 (+S)</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="String">Matheus da Silva Santos</Data></Cell>
+				<Cell ss:StyleID="xls-style-4"><Data ss:Type="String">19/10/2021 15:42</Data></Cell>
+				<Cell ss:StyleID="xls-style-4"><Data ss:Type="String">09/11/2021 11:02</Data></Cell>
+				<Cell ss:StyleID="xls-style-4"><Data ss:Type="String">17/11/2021 07:25</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="String">Qual sua avaliação para esse atendimento?</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">10</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String"></Data></Cell>
+			</Row>
+			<Row>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">86441</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">Público</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="String">VPN e Link
+</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="String">Diff IT</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="String">César</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="String">Time A</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="String">Felipe Souza Baptista</Data></Cell>
+				<Cell ss:StyleID="xls-style-4"><Data ss:Type="String">25/10/2021 16:00</Data></Cell>
+				<Cell ss:StyleID="xls-style-4"><Data ss:Type="String">01/11/2021 15:15</Data></Cell>
+				<Cell ss:StyleID="xls-style-4"><Data ss:Type="String">04/11/2021 19:32</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="String">Qual sua avaliação para esse atendimento?</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">10</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String"></Data></Cell>
+			</Row>
+			<Row>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">86586</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">Público</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="String">Liberar acesso de comunicação IHC x Clínica Imagem.</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="String">Hospital Baía Sul / Clínica Imagem</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="String">Gustavo Henrique de Lima</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="String">Time N2 (+S)</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="String">Daniel da Silva Rosa</Data></Cell>
+				<Cell ss:StyleID="xls-style-4"><Data ss:Type="String">01/11/2021 08:40</Data></Cell>
+				<Cell ss:StyleID="xls-style-4"><Data ss:Type="String">08/11/2021 11:47</Data></Cell>
+				<Cell ss:StyleID="xls-style-4"><Data ss:Type="String">10/11/2021 11:04</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="String">Qual sua avaliação para esse atendimento?</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">10</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String"></Data></Cell>
+			</Row>
+			<Row>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">86498</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">Público</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="String">Liberação de portas</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="String">Hospital Baía Sul / Clínica Imagem</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="String">Gustavo Henrique de Lima</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="String">Time N2 (+S)</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="String">Daniel da Silva Rosa</Data></Cell>
+				<Cell ss:StyleID="xls-style-4"><Data ss:Type="String">27/10/2021 11:00</Data></Cell>
+				<Cell ss:StyleID="xls-style-4"><Data ss:Type="String">06/11/2021 00:56</Data></Cell>
+				<Cell ss:StyleID="xls-style-4"><Data ss:Type="String">08/11/2021 09:36</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="String">Qual sua avaliação para esse atendimento?</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">10</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String"></Data></Cell>
+			</Row>
+			<Row>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">86551</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">Público</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="String">Liberação de acesso Clínica Imagem x Hospital de Caridade.</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="String">Hospital Baía Sul / Clínica Imagem</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="String">Gustavo Henrique de Lima</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="String">Gateway</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="String">Gateway 02</Data></Cell>
+				<Cell ss:StyleID="xls-style-4"><Data ss:Type="String">29/10/2021 09:31</Data></Cell>
+				<Cell ss:StyleID="xls-style-4"><Data ss:Type="String">01/11/2021 08:55</Data></Cell>
+				<Cell ss:StyleID="xls-style-4"><Data ss:Type="String">03/11/2021 15:05</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="String">Qual sua avaliação para esse atendimento?</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">6</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String"></Data></Cell>
+			</Row>
+			<Row>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">86566</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">Público</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="String">Liberar Ip e portas</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="String">Giassi Confecções</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="String">Leandro F Zilli</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="String">Gateway</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="String">Gateway 02</Data></Cell>
+				<Cell ss:StyleID="xls-style-4"><Data ss:Type="String">29/10/2021 14:25</Data></Cell>
+				<Cell ss:StyleID="xls-style-4"><Data ss:Type="String">01/11/2021 08:58</Data></Cell>
+				<Cell ss:StyleID="xls-style-4"><Data ss:Type="String">01/11/2021 14:00</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="String">Qual sua avaliação para esse atendimento?</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">10</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String"></Data></Cell>
+			</Row>
+			<Row>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">86458</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">Público</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="String">Bloqueio de Sites</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="String">Vancouros</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="String">walter</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="String">Time N2</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="String">Jonatas Silva</Data></Cell>
+				<Cell ss:StyleID="xls-style-4"><Data ss:Type="String">26/10/2021 10:04</Data></Cell>
+				<Cell ss:StyleID="xls-style-4"><Data ss:Type="String">19/11/2021 09:18</Data></Cell>
+				<Cell ss:StyleID="xls-style-4"><Data ss:Type="String">07/12/2021 16:06</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="String">Qual sua avaliação para esse atendimento?</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">9</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String"></Data></Cell>
+			</Row>
+			<Row>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">86578</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">Público</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="String">Erro VPN </Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="String">Ciarama</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="String">Rainer Pedrozo</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="String">Time N2</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="String">Jonatas Silva</Data></Cell>
+				<Cell ss:StyleID="xls-style-4"><Data ss:Type="String">29/10/2021 17:33</Data></Cell>
+				<Cell ss:StyleID="xls-style-4"><Data ss:Type="String">01/11/2021 16:45</Data></Cell>
+				<Cell ss:StyleID="xls-style-4"><Data ss:Type="String">09/11/2021 16:23</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="String">Qual sua avaliação para esse atendimento?</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">10</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">estamos com o mesmo problema
+
+</Data></Cell>
+			</Row>
+			<Row>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">86583</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">Público</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="String">Aumentar Range IP Matriz</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="String">Ciarama</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="String">Rainer Pedrozo</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="String">Time N2</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="String">Jonatas Silva</Data></Cell>
+				<Cell ss:StyleID="xls-style-4"><Data ss:Type="String">01/11/2021 08:28</Data></Cell>
+				<Cell ss:StyleID="xls-style-4"><Data ss:Type="String">03/11/2021 10:11</Data></Cell>
+				<Cell ss:StyleID="xls-style-4"><Data ss:Type="String">03/11/2021 10:15</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="String">Qual sua avaliação para esse atendimento?</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">10</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String"></Data></Cell>
+			</Row>
+			<Row>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">86513</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">Público</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="String">Alteração regra redirecionamento</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="String">PSA Informática</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="String">Eduardo Vieira Cardoso</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="String">Time N2</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="String">Jonatas Silva</Data></Cell>
+				<Cell ss:StyleID="xls-style-4"><Data ss:Type="String">27/10/2021 16:58</Data></Cell>
+				<Cell ss:StyleID="xls-style-4"><Data ss:Type="String">09/11/2021 11:54</Data></Cell>
+				<Cell ss:StyleID="xls-style-4"><Data ss:Type="String">09/11/2021 11:25</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="String">Qual sua avaliação para esse atendimento?</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">10</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String"></Data></Cell>
+			</Row>
+			<Row>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">86576</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">Público</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="String">varias notificações</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="String">Libreplast / Liplast</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="String">Gustavo Carrer Horn</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="String">Time A</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="String">Henrique Silveira Avila</Data></Cell>
+				<Cell ss:StyleID="xls-style-4"><Data ss:Type="String">29/10/2021 17:27</Data></Cell>
+				<Cell ss:StyleID="xls-style-4"><Data ss:Type="String">10/11/2021 09:38</Data></Cell>
+				<Cell ss:StyleID="xls-style-4"><Data ss:Type="String">10/11/2021 11:55</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="String">Qual sua avaliação para esse atendimento?</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">10</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String"></Data></Cell>
+			</Row>
+			<Row>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">86501</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">Público</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="String">Troca de appliance </Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="String">Neoprene Brasil Ltda</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="String">Paulo Latrônico</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="String">Gateway</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="String">Eduardo Nunes de Oliveira</Data></Cell>
+				<Cell ss:StyleID="xls-style-4"><Data ss:Type="String">27/10/2021 11:36</Data></Cell>
+				<Cell ss:StyleID="xls-style-4"><Data ss:Type="String">04/11/2021 15:16</Data></Cell>
+				<Cell ss:StyleID="xls-style-4"><Data ss:Type="String">04/11/2021 17:27</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="String">Qual sua avaliação para esse atendimento?</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">10</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">Resolvido</Data></Cell>
+			</Row>
+			<Row>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">86584</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">Público</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="String">Proxy bloqueou os sites da Microsotf</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="String">Santa Luzia Molduras</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="String">Antônio</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="String">Time A</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="String">Yuri Zabot dos Santos</Data></Cell>
+				<Cell ss:StyleID="xls-style-4"><Data ss:Type="String">01/11/2021 08:30</Data></Cell>
+				<Cell ss:StyleID="xls-style-4"><Data ss:Type="String">01/11/2021 09:29</Data></Cell>
+				<Cell ss:StyleID="xls-style-4"><Data ss:Type="String">01/11/2021 09:57</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="String">Qual sua avaliação para esse atendimento?</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">7</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String"></Data></Cell>
+			</Row>
+			<Row>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">86562</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">Público</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="String">Configuração da navegação da rede wi-fi</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="String">Plaszom</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="String">Gustavo Simon Soares</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="String">Time A</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="String">Yuri Zabot dos Santos</Data></Cell>
+				<Cell ss:StyleID="xls-style-4"><Data ss:Type="String">29/10/2021 13:32</Data></Cell>
+				<Cell ss:StyleID="xls-style-4"><Data ss:Type="String">05/11/2021 11:08</Data></Cell>
+				<Cell ss:StyleID="xls-style-4"><Data ss:Type="String">05/11/2021 11:28</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="String">Qual sua avaliação para esse atendimento?</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">10</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String"></Data></Cell>
+			</Row>
+			<Row>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">86552</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">Público</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="String"></Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="String">Tech Net Soluções em Tecnologia</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="String">Dorair Andre Dognani</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="String">Time A</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="String">Rickyson Marcilio Figueiredo</Data></Cell>
+				<Cell ss:StyleID="xls-style-4"><Data ss:Type="String">29/10/2021 10:26</Data></Cell>
+				<Cell ss:StyleID="xls-style-4"><Data ss:Type="String">04/11/2021 17:25</Data></Cell>
+				<Cell ss:StyleID="xls-style-4"><Data ss:Type="String">04/11/2021 17:36</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="String">Qual sua avaliação para esse atendimento?</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">7</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String"></Data></Cell>
+			</Row>
+			<Row>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">86511</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">Público</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="String">PROBLEMAS AO REALIZAR LIGAÇÕES VIA VOIP NA REDE INTERNA</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="String">VC-X Solutions</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="String">Rodrigo Bedete</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="String">Time A</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="String">Nicolas Costa</Data></Cell>
+				<Cell ss:StyleID="xls-style-4"><Data ss:Type="String">27/10/2021 16:12</Data></Cell>
+				<Cell ss:StyleID="xls-style-4"><Data ss:Type="String">18/11/2021 09:22</Data></Cell>
+				<Cell ss:StyleID="xls-style-4"><Data ss:Type="String">02/12/2021 10:14</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="String">Qual sua avaliação para esse atendimento?</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">10</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String"></Data></Cell>
+			</Row>
+			<Row>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">86459</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">Público</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="String">UTM não disparando e-mails</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="String">Sical - Siderúrgica Catarinense Ltda.</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="String">Felipe Amboni</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="String">Time A</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="String">Nicolas Costa</Data></Cell>
+				<Cell ss:StyleID="xls-style-4"><Data ss:Type="String">26/10/2021 10:27</Data></Cell>
+				<Cell ss:StyleID="xls-style-4"><Data ss:Type="String">03/11/2021 14:51</Data></Cell>
+				<Cell ss:StyleID="xls-style-4"><Data ss:Type="String">08/11/2021 15:42</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="String">Qual sua avaliação para esse atendimento?</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">10</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String"></Data></Cell>
+			</Row>
+			<Row>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">86590</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">Público</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="String">Repositório Nakivo</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="String">Itagres</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="String">Alan Medeiro</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="String">Time N1 (+S)</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="String">Emanuel Douglas</Data></Cell>
+				<Cell ss:StyleID="xls-style-4"><Data ss:Type="String">01/11/2021 11:18</Data></Cell>
+				<Cell ss:StyleID="xls-style-4"><Data ss:Type="String">01/11/2021 11:31</Data></Cell>
+				<Cell ss:StyleID="xls-style-4"><Data ss:Type="String">01/11/2021 11:41</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="String">Qual sua avaliação para esse atendimento?</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">10</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String"></Data></Cell>
+			</Row>
+			<Row>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">86680</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">Público</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="String">Vlan</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="String">Tech Net Soluções em Tecnologia</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="String">Dorair Andre Dognani</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="String">Time N2</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="String">Alexsandro Fabiano dos Passos</Data></Cell>
+				<Cell ss:StyleID="xls-style-4"><Data ss:Type="String">04/11/2021 16:02</Data></Cell>
+				<Cell ss:StyleID="xls-style-4"><Data ss:Type="String">04/11/2021 20:09</Data></Cell>
+				<Cell ss:StyleID="xls-style-4"><Data ss:Type="String">05/11/2021 08:44</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="String">Qual sua avaliação para esse atendimento?</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">10</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">Resolvido com sucesso!</Data></Cell>
+			</Row>
+			<Row>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">86606</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">Público</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="String">Sem internet Unidade 2/4</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="String">Plaszom</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="String">Gustavo Simon Soares</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="String">Administradores</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="String">Gabriel Fonseca</Data></Cell>
+				<Cell ss:StyleID="xls-style-4"><Data ss:Type="String">03/11/2021 07:18</Data></Cell>
+				<Cell ss:StyleID="xls-style-4"><Data ss:Type="String">03/11/2021 08:35</Data></Cell>
+				<Cell ss:StyleID="xls-style-4"><Data ss:Type="String">03/11/2021 08:47</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="String">Qual sua avaliação para esse atendimento?</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">10</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String"></Data></Cell>
+			</Row>
+			<Row>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">86716</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">Público</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="String">PLANTÃO: Switch core do HBS com alta latência</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="String">Hospital Baía Sul / Clínica Imagem</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="String">Gustavo Henrique de Lima</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="String">Time N2 (+S)</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="String">Daniel da Silva Rosa</Data></Cell>
+				<Cell ss:StyleID="xls-style-4"><Data ss:Type="String">05/11/2021 19:50</Data></Cell>
+				<Cell ss:StyleID="xls-style-4"><Data ss:Type="String">05/11/2021 19:54</Data></Cell>
+				<Cell ss:StyleID="xls-style-4"><Data ss:Type="String">08/11/2021 09:57</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="String">Qual sua avaliação para esse atendimento?</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">10</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String"></Data></Cell>
+			</Row>
+			<Row>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">86662</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">Público</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="String">Comunicação entre rede do HBS e rede da CI está instável. Latência está muito alta. </Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="String">Hospital Baía Sul / Clínica Imagem</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="String">Gustavo Henrique de Lima</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="String">Time N2 (+S)</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="String">Daniel da Silva Rosa</Data></Cell>
+				<Cell ss:StyleID="xls-style-4"><Data ss:Type="String">04/11/2021 11:10</Data></Cell>
+				<Cell ss:StyleID="xls-style-4"><Data ss:Type="String">05/11/2021 19:58</Data></Cell>
+				<Cell ss:StyleID="xls-style-4"><Data ss:Type="String">08/11/2021 09:57</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="String">Qual sua avaliação para esse atendimento?</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">10</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String"></Data></Cell>
+			</Row>
+			<Row>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">86659</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">Público</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="String">Link Principal</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="String">Neoprene Brasil Ltda</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="String">Paulo Latrônico</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="String">Gateway</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="String">Gateway 02</Data></Cell>
+				<Cell ss:StyleID="xls-style-4"><Data ss:Type="String">04/11/2021 10:35</Data></Cell>
+				<Cell ss:StyleID="xls-style-4"><Data ss:Type="String">04/11/2021 17:42</Data></Cell>
+				<Cell ss:StyleID="xls-style-4"><Data ss:Type="String">04/11/2021 17:49</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="String">Qual sua avaliação para esse atendimento?</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">10</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">resolvido</Data></Cell>
+			</Row>
+			<Row>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">86658</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">Público</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="String">Regra Firewall</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="String">Cergal</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="String">Tiago Aguiar Firmino</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="String">Gateway</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="String">Gateway 02</Data></Cell>
+				<Cell ss:StyleID="xls-style-4"><Data ss:Type="String">04/11/2021 10:19</Data></Cell>
+				<Cell ss:StyleID="xls-style-4"><Data ss:Type="String">04/11/2021 10:27</Data></Cell>
+				<Cell ss:StyleID="xls-style-4"><Data ss:Type="String">04/11/2021 15:00</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="String">Qual sua avaliação para esse atendimento?</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">10</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">Agradeço pela atenção.</Data></Cell>
+			</Row>
+			<Row>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">86621</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">Público</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="String">Problemas com acesso ao e-mail da Colaboradora fabiane@infasa.com.br</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="String">AB Agrobrasil / Infasa</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="String">Thiago Oliveira de Carvalho</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="String">Gateway</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="String">Gateway 02</Data></Cell>
+				<Cell ss:StyleID="xls-style-4"><Data ss:Type="String">03/11/2021 11:35</Data></Cell>
+				<Cell ss:StyleID="xls-style-4"><Data ss:Type="String">03/11/2021 12:08</Data></Cell>
+				<Cell ss:StyleID="xls-style-4"><Data ss:Type="String">03/11/2021 13:33</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="String">Qual sua avaliação para esse atendimento?</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">10</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">Agilidade e precisão, obrigado pelo suporte;</Data></Cell>
+			</Row>
+			<Row>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">86649</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">Público</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="String">Monitor de Link - Gateways</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="String">Neoprene Brasil Ltda</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="String">Paulo Latrônico</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="String">Gateway</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="String">Gateway 01</Data></Cell>
+				<Cell ss:StyleID="xls-style-4"><Data ss:Type="String">04/11/2021 09:01</Data></Cell>
+				<Cell ss:StyleID="xls-style-4"><Data ss:Type="String">04/11/2021 09:13</Data></Cell>
+				<Cell ss:StyleID="xls-style-4"><Data ss:Type="String">04/11/2021 09:48</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="String">Qual sua avaliação para esse atendimento?</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">10</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String"></Data></Cell>
+			</Row>
+			<Row>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">86707</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">Público</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="String">novo acesso VPN</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="String">Romano Advogados</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="String">Lucas Siloto</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="String">Gateway</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="String">Gateway 01</Data></Cell>
+				<Cell ss:StyleID="xls-style-4"><Data ss:Type="String">05/11/2021 13:19</Data></Cell>
+				<Cell ss:StyleID="xls-style-4"><Data ss:Type="String">09/11/2021 14:21</Data></Cell>
+				<Cell ss:StyleID="xls-style-4"><Data ss:Type="String">09/11/2021 14:57</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="String">Qual sua avaliação para esse atendimento?</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">10</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String"></Data></Cell>
+			</Row>
+			<Row>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">86701</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">Público</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="String">Criação de vpn para acesso remoto</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="String">Onix</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="String">Rafael Rodrigues</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="String">Gateway</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="String">Gateway 01</Data></Cell>
+				<Cell ss:StyleID="xls-style-4"><Data ss:Type="String">05/11/2021 10:57</Data></Cell>
+				<Cell ss:StyleID="xls-style-4"><Data ss:Type="String">09/11/2021 09:08</Data></Cell>
+				<Cell ss:StyleID="xls-style-4"><Data ss:Type="String">09/11/2021 09:26</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="String">Qual sua avaliação para esse atendimento?</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">9</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String"></Data></Cell>
+			</Row>
+			<Row>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">86615</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">Público</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="String">Alto uso de CPU - Firewall reserva</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="String">Neoprene Brasil Ltda</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="String">Paulo Latrônico</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="String">Time A</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="String">Henrique Silveira Avila</Data></Cell>
+				<Cell ss:StyleID="xls-style-4"><Data ss:Type="String">03/11/2021 10:09</Data></Cell>
+				<Cell ss:StyleID="xls-style-4"><Data ss:Type="String">08/11/2021 15:35</Data></Cell>
+				<Cell ss:StyleID="xls-style-4"><Data ss:Type="String">08/11/2021 16:21</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="String">Qual sua avaliação para esse atendimento?</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">10</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">resolvido</Data></Cell>
+			</Row>
+			<Row>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">86697</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">Público</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="String">Compartilhamento de pasta</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="String">Giassi Confecções</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="String">Leandro F Zilli</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="String">Time A</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="String">Henrique Silveira Avila</Data></Cell>
+				<Cell ss:StyleID="xls-style-4"><Data ss:Type="String">05/11/2021 10:22</Data></Cell>
+				<Cell ss:StyleID="xls-style-4"><Data ss:Type="String">10/11/2021 15:20</Data></Cell>
+				<Cell ss:StyleID="xls-style-4"><Data ss:Type="String">10/11/2021 17:16</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="String">Qual sua avaliação para esse atendimento?</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">10</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String"></Data></Cell>
+			</Row>
+			<Row>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">86660</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">Público</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="String">Instabilidade de acesso Firebox Filial Palhoça</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="String">Phipasa</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="String">Rodrigo TI - Phipasa</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="String">Time A</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="String">Henrique Silveira Avila</Data></Cell>
+				<Cell ss:StyleID="xls-style-4"><Data ss:Type="String">04/11/2021 11:06</Data></Cell>
+				<Cell ss:StyleID="xls-style-4"><Data ss:Type="String">04/11/2021 14:08</Data></Cell>
+				<Cell ss:StyleID="xls-style-4"><Data ss:Type="String">04/11/2021 15:05</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="String">Qual sua avaliação para esse atendimento?</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">10</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String"></Data></Cell>
+			</Row>
+			<Row>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">86596</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">Público</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="String">Atualização da versão do UTM.</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="String">Diff IT</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="String">César</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="String">Time A</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="String">Henrique Silveira Avila</Data></Cell>
+				<Cell ss:StyleID="xls-style-4"><Data ss:Type="String">01/11/2021 14:23</Data></Cell>
+				<Cell ss:StyleID="xls-style-4"><Data ss:Type="String">04/11/2021 17:23</Data></Cell>
+				<Cell ss:StyleID="xls-style-4"><Data ss:Type="String">04/11/2021 19:29</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="String">Qual sua avaliação para esse atendimento?</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">10</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String"></Data></Cell>
+			</Row>
+			<Row>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">86647</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">Público</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="String">VPN-SSL</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="String">Diff IT</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="String">César</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="String">Time A</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="String">Henrique Silveira Avila</Data></Cell>
+				<Cell ss:StyleID="xls-style-4"><Data ss:Type="String">04/11/2021 08:48</Data></Cell>
+				<Cell ss:StyleID="xls-style-4"><Data ss:Type="String">05/11/2021 15:26</Data></Cell>
+				<Cell ss:StyleID="xls-style-4"><Data ss:Type="String">05/11/2021 16:13</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="String">Qual sua avaliação para esse atendimento?</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">10</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String"></Data></Cell>
+			</Row>
+			<Row>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">86675</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">Público</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="String">VPN entre a BM3 e a SoulPack</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="String">BM3 Market Solutions</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="String">Paulo Latrônico</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="String">Time A</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="String">Henrique Silveira Avila</Data></Cell>
+				<Cell ss:StyleID="xls-style-4"><Data ss:Type="String">04/11/2021 15:03</Data></Cell>
+				<Cell ss:StyleID="xls-style-4"><Data ss:Type="String">04/11/2021 15:40</Data></Cell>
+				<Cell ss:StyleID="xls-style-4"><Data ss:Type="String">10/11/2021 11:48</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="String">Qual sua avaliação para esse atendimento?</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">10</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">Resolvido</Data></Cell>
+			</Row>
+			<Row>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">86601</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">Público</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="String">Liberação de acesso para Cliente Nova Opção</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="String">Hardware House Informatica Ltda</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="String">Suporte Tec Redes</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="String">Time A</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="String">Henrique Silveira Avila</Data></Cell>
+				<Cell ss:StyleID="xls-style-4"><Data ss:Type="String">01/11/2021 16:18</Data></Cell>
+				<Cell ss:StyleID="xls-style-4"><Data ss:Type="String">04/11/2021 14:06</Data></Cell>
+				<Cell ss:StyleID="xls-style-4"><Data ss:Type="String">12/11/2021 07:45</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="String">Qual sua avaliação para esse atendimento?</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">10</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String"></Data></Cell>
+			</Row>
+			<Row>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">86639</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">Público</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="String">E-mail ficando inativo</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="String">Plaszom</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="String">Gustavo Simon Soares</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="String">Time A</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="String">Henrique Silveira Avila</Data></Cell>
+				<Cell ss:StyleID="xls-style-4"><Data ss:Type="String">03/11/2021 17:00</Data></Cell>
+				<Cell ss:StyleID="xls-style-4"><Data ss:Type="String">04/11/2021 17:25</Data></Cell>
+				<Cell ss:StyleID="xls-style-4"><Data ss:Type="String">04/11/2021 17:26</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="String">Qual sua avaliação para esse atendimento?</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">10</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String"></Data></Cell>
+			</Row>
+			<Row>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">86687</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">Público</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="String">Acesso ao Edocs</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="String">Plaszom</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="String">Gustavo Simon Soares</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="String">Time A</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="String">Henrique Silveira Avila</Data></Cell>
+				<Cell ss:StyleID="xls-style-4"><Data ss:Type="String">04/11/2021 17:09</Data></Cell>
+				<Cell ss:StyleID="xls-style-4"><Data ss:Type="String">05/11/2021 15:24</Data></Cell>
+				<Cell ss:StyleID="xls-style-4"><Data ss:Type="String">05/11/2021 15:26</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="String">Qual sua avaliação para esse atendimento?</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">10</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String"></Data></Cell>
+			</Row>
+			<Row>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">86714</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">Público</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="String">VPN inoperante</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="String">Plaszom</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="String">Gustavo Simon Soares</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="String">Time A</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="String">Yuri Zabot dos Santos</Data></Cell>
+				<Cell ss:StyleID="xls-style-4"><Data ss:Type="String">05/11/2021 17:32</Data></Cell>
+				<Cell ss:StyleID="xls-style-4"><Data ss:Type="String">05/11/2021 18:06</Data></Cell>
+				<Cell ss:StyleID="xls-style-4"><Data ss:Type="String">11/11/2021 11:13</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="String">Qual sua avaliação para esse atendimento?</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">10</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String"></Data></Cell>
+			</Row>
+			<Row>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">86702</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">Público</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="String">Adicionar novas rotas na VPN HomeOffice.</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="String">INMES</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="String">Daniel Petroski</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="String">Time A</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="String">Yuri Zabot dos Santos</Data></Cell>
+				<Cell ss:StyleID="xls-style-4"><Data ss:Type="String">05/11/2021 11:08</Data></Cell>
+				<Cell ss:StyleID="xls-style-4"><Data ss:Type="String">05/11/2021 14:46</Data></Cell>
+				<Cell ss:StyleID="xls-style-4"><Data ss:Type="String">30/11/2021 16:20</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="String">Qual sua avaliação para esse atendimento?</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">10</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String"></Data></Cell>
+			</Row>
+			<Row>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">86643</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">Público</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="String">Sem internet / Appliance desligado incorretamente
+</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="String">Onix</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="String">Onix Tecnologia do Brasil</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="String">Time A</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="String">Yuri Zabot dos Santos</Data></Cell>
+				<Cell ss:StyleID="xls-style-4"><Data ss:Type="String">04/11/2021 08:23</Data></Cell>
+				<Cell ss:StyleID="xls-style-4"><Data ss:Type="String">04/11/2021 16:24</Data></Cell>
+				<Cell ss:StyleID="xls-style-4"><Data ss:Type="String">04/11/2021 17:04</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="String">Qual sua avaliação para esse atendimento?</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">8</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String"></Data></Cell>
+			</Row>
+			<Row>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">86684</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">Público</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="String">Imprimir do IP 192.168.1.246 nas Impressora do grupo.</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="String">Moval Móveis Arapongas</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="String">Kenny Laverde</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="String">Time A</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="String">Rickyson Marcilio Figueiredo</Data></Cell>
+				<Cell ss:StyleID="xls-style-4"><Data ss:Type="String">04/11/2021 16:26</Data></Cell>
+				<Cell ss:StyleID="xls-style-4"><Data ss:Type="String">09/11/2021 16:53</Data></Cell>
+				<Cell ss:StyleID="xls-style-4"><Data ss:Type="String">07/12/2021 11:39</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="String">Qual sua avaliação para esse atendimento?</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">8</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String"></Data></Cell>
+			</Row>
+			<Row>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">86594</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">Público</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="String">Subrede Cameras</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="String">INMES</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="String">Daniel Petroski</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="String">Time A</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="String">Nicolas Costa</Data></Cell>
+				<Cell ss:StyleID="xls-style-4"><Data ss:Type="String">01/11/2021 13:52</Data></Cell>
+				<Cell ss:StyleID="xls-style-4"><Data ss:Type="String">04/11/2021 15:28</Data></Cell>
+				<Cell ss:StyleID="xls-style-4"><Data ss:Type="String">30/11/2021 16:21</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="String">Qual sua avaliação para esse atendimento?</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">10</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String"></Data></Cell>
+			</Row>
+			<Row>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">86698</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">Público</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="String">Redirecionamento de acesso remoto</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="String">Cergal</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="String">Tiago Aguiar Firmino</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="String">Time A</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="String">Nicolas Costa</Data></Cell>
+				<Cell ss:StyleID="xls-style-4"><Data ss:Type="String">05/11/2021 10:45</Data></Cell>
+				<Cell ss:StyleID="xls-style-4"><Data ss:Type="String">05/11/2021 17:09</Data></Cell>
+				<Cell ss:StyleID="xls-style-4"><Data ss:Type="String">08/11/2021 08:19</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="String">Qual sua avaliação para esse atendimento?</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">10</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">Agradeço pela agilidade do processo.</Data></Cell>
+			</Row>
+			<Row>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">86705</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">Público</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="String">Pandion</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="String">Palácio das tintas</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="String">Lucas de Medeiros</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="String">Time A</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="String">Nicolas Costa</Data></Cell>
+				<Cell ss:StyleID="xls-style-4"><Data ss:Type="String">05/11/2021 12:08</Data></Cell>
+				<Cell ss:StyleID="xls-style-4"><Data ss:Type="String">10/11/2021 10:57</Data></Cell>
+				<Cell ss:StyleID="xls-style-4"><Data ss:Type="String">10/11/2021 15:47</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="String">Qual sua avaliação para esse atendimento?</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">10</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String"></Data></Cell>
+			</Row>
+			<Row>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">86673</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">Público</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="String">Migrar DNS</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="String">Cergal</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="String">Tiago Aguiar Firmino</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="String">Time N1 (+S)</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="String">Matheus da Silva Santos</Data></Cell>
+				<Cell ss:StyleID="xls-style-4"><Data ss:Type="String">04/11/2021 15:00</Data></Cell>
+				<Cell ss:StyleID="xls-style-4"><Data ss:Type="String">16/11/2021 11:00</Data></Cell>
+				<Cell ss:StyleID="xls-style-4"><Data ss:Type="String">17/11/2021 08:10</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="String">Qual sua avaliação para esse atendimento?</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">10</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String"></Data></Cell>
+			</Row>
+			<Row>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">86691</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">Público</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="String">BACKUP NAO EXECUTADO.</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="String">Itagres</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="String">Rangel Freccia</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="String">Time N1 (+S)</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="String">Emanuel Douglas</Data></Cell>
+				<Cell ss:StyleID="xls-style-4"><Data ss:Type="String">05/11/2021 08:04</Data></Cell>
+				<Cell ss:StyleID="xls-style-4"><Data ss:Type="String">05/11/2021 10:27</Data></Cell>
+				<Cell ss:StyleID="xls-style-4"><Data ss:Type="String">10/11/2021 13:41</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="String">Qual sua avaliação para esse atendimento?</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">10</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String"></Data></Cell>
+			</Row>
+			<Row>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">86644</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">Público</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="String">Backup Nakivo</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="String">Itagres</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="String">Alan Medeiro</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="String">Time N1 (+S)</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="String">Emanuel Douglas</Data></Cell>
+				<Cell ss:StyleID="xls-style-4"><Data ss:Type="String">04/11/2021 08:26</Data></Cell>
+				<Cell ss:StyleID="xls-style-4"><Data ss:Type="String">04/11/2021 12:01</Data></Cell>
+				<Cell ss:StyleID="xls-style-4"><Data ss:Type="String">09/11/2021 15:38</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="String">Qual sua avaliação para esse atendimento?</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">9</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String"></Data></Cell>
+			</Row>
+			<Row>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">86672</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">Público</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="String">Liberação total de IP</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="String">Plaszom</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="String">Gustavo Simon Soares</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="String">Time A</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="String">Daniel Cardoso Queiroz</Data></Cell>
+				<Cell ss:StyleID="xls-style-4"><Data ss:Type="String">04/11/2021 14:45</Data></Cell>
+				<Cell ss:StyleID="xls-style-4"><Data ss:Type="String">05/11/2021 09:34</Data></Cell>
+				<Cell ss:StyleID="xls-style-4"><Data ss:Type="String">05/11/2021 09:36</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="String">Qual sua avaliação para esse atendimento?</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">10</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String"></Data></Cell>
+			</Row>
+			<Row>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">86715</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">Público</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="String">Reabertura do ticket 86349 GRID CORUPA</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="String">PROC</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="String">Carlos - Proc Soluções</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="String">Time A</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="String">Daniel Cardoso Queiroz</Data></Cell>
+				<Cell ss:StyleID="xls-style-4"><Data ss:Type="String">05/11/2021 18:11</Data></Cell>
+				<Cell ss:StyleID="xls-style-4"><Data ss:Type="String">09/11/2021 11:00</Data></Cell>
+				<Cell ss:StyleID="xls-style-4"><Data ss:Type="String">09/11/2021 11:15</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="String">Qual sua avaliação para esse atendimento?</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">10</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">Show parabéns pessoal
+</Data></Cell>
+			</Row>
+			<Row>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">86622</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">Público</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="String">Vlan</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="String">Rio Deserto</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="String">Rafael Michels Américo</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="String">Time A</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="String">Felipe Souza Baptista</Data></Cell>
+				<Cell ss:StyleID="xls-style-4"><Data ss:Type="String">03/11/2021 11:37</Data></Cell>
+				<Cell ss:StyleID="xls-style-4"><Data ss:Type="String">03/11/2021 17:31</Data></Cell>
+				<Cell ss:StyleID="xls-style-4"><Data ss:Type="String">04/11/2021 09:36</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="String">Qual sua avaliação para esse atendimento?</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">10</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String"></Data></Cell>
+			</Row>
+			<Row>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">86775</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">Público</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="String">Servidor loja 15</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="String">Palácio das tintas</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="String">Lucas de Medeiros</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="String">Análise</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="String">Customer Success Team</Data></Cell>
+				<Cell ss:StyleID="xls-style-4"><Data ss:Type="String">09/11/2021 17:53</Data></Cell>
+				<Cell ss:StyleID="xls-style-4"><Data ss:Type="String">16/11/2021 08:47</Data></Cell>
+				<Cell ss:StyleID="xls-style-4"><Data ss:Type="String">25/11/2021 09:26</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="String">Qual sua avaliação para esse atendimento?</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">10</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String"></Data></Cell>
+			</Row>
+			<Row>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">86908</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">Público</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="String">Certificado vencido - Lets Encrypt
+</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="String">Transportes Alvorada</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="String">Marcelo Ribeiro Salmon</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="String">Time N2</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="String">Alexsandro Fabiano dos Passos</Data></Cell>
+				<Cell ss:StyleID="xls-style-4"><Data ss:Type="String">16/11/2021 10:01</Data></Cell>
+				<Cell ss:StyleID="xls-style-4"><Data ss:Type="String">16/11/2021 16:10</Data></Cell>
+				<Cell ss:StyleID="xls-style-4"><Data ss:Type="String">16/11/2021 16:30</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="String">Qual sua avaliação para esse atendimento?</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">7</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String"></Data></Cell>
+			</Row>
+			<Row>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">86963</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">Público</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="String">Plantão: problemas com a nova placa de rede</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="String">Vancouros</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="String">walter</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="String">Administradores</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="String">Gabriel Fonseca</Data></Cell>
+				<Cell ss:StyleID="xls-style-4"><Data ss:Type="String">18/11/2021 09:31</Data></Cell>
+				<Cell ss:StyleID="xls-style-4"><Data ss:Type="String">19/11/2021 08:50</Data></Cell>
+				<Cell ss:StyleID="xls-style-4"><Data ss:Type="String">07/12/2021 16:05</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="String">Qual sua avaliação para esse atendimento?</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">9</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String"></Data></Cell>
+			</Row>
+			<Row>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">86800</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">Público</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="String">Glassfish parado</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="String">G7LOG TRANSPORTES LTDA</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="String">Borys</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="String">Time N2 (+S)</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="String">Daniel da Silva Rosa</Data></Cell>
+				<Cell ss:StyleID="xls-style-4"><Data ss:Type="String">10/11/2021 18:51</Data></Cell>
+				<Cell ss:StyleID="xls-style-4"><Data ss:Type="String">10/11/2021 19:02</Data></Cell>
+				<Cell ss:StyleID="xls-style-4"><Data ss:Type="String">11/11/2021 08:11</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="String">Qual sua avaliação para esse atendimento?</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">10</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String"></Data></Cell>
+			</Row>
+			<Row>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">86744</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">Público</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="String">Instalação de certificado (glassfish)</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="String">G7LOG TRANSPORTES LTDA</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="String">Borys</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="String">Time N2 (+S)</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="String">Daniel da Silva Rosa</Data></Cell>
+				<Cell ss:StyleID="xls-style-4"><Data ss:Type="String">09/11/2021 08:33</Data></Cell>
+				<Cell ss:StyleID="xls-style-4"><Data ss:Type="String">10/11/2021 18:51</Data></Cell>
+				<Cell ss:StyleID="xls-style-4"><Data ss:Type="String">11/11/2021 08:10</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="String">Qual sua avaliação para esse atendimento?</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">10</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String"></Data></Cell>
+			</Row>
+			<Row>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">86836</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">Público</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="String">Servidor 172.16.50.31 - Atualização</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="String">Supermercados Manentti</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="String">Mateus Brognoli Silvano</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="String">Time N2 (+S)</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="String">Daniel da Silva Rosa</Data></Cell>
+				<Cell ss:StyleID="xls-style-4"><Data ss:Type="String">12/11/2021 08:07</Data></Cell>
+				<Cell ss:StyleID="xls-style-4"><Data ss:Type="String">12/11/2021 14:51</Data></Cell>
+				<Cell ss:StyleID="xls-style-4"><Data ss:Type="String">12/11/2021 14:55</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="String">Qual sua avaliação para esse atendimento?</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">10</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String"></Data></Cell>
+			</Row>
+			<Row>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">86717</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">Público</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="String">Expandir disco do fileserver do HBS</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="String">Hospital Baía Sul / Clínica Imagem</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="String">Gustavo Henrique de Lima</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="String">Time N2 (+S)</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="String">Daniel da Silva Rosa</Data></Cell>
+				<Cell ss:StyleID="xls-style-4"><Data ss:Type="String">06/11/2021 04:43</Data></Cell>
+				<Cell ss:StyleID="xls-style-4"><Data ss:Type="String">06/11/2021 04:45</Data></Cell>
+				<Cell ss:StyleID="xls-style-4"><Data ss:Type="String">08/11/2021 09:58</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="String">Qual sua avaliação para esse atendimento?</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">10</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String"></Data></Cell>
+			</Row>
+			<Row>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">86718</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">Público</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="String">Expandir disco do fileserver da Clinica Imagem</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="String">Hospital Baía Sul / Clínica Imagem</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="String">Gustavo Henrique de Lima</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="String">Time N2 (+S)</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="String">Daniel da Silva Rosa</Data></Cell>
+				<Cell ss:StyleID="xls-style-4"><Data ss:Type="String">06/11/2021 04:45</Data></Cell>
+				<Cell ss:StyleID="xls-style-4"><Data ss:Type="String">06/11/2021 04:47</Data></Cell>
+				<Cell ss:StyleID="xls-style-4"><Data ss:Type="String">08/11/2021 09:58</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="String">Qual sua avaliação para esse atendimento?</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">10</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String"></Data></Cell>
+			</Row>
+			<Row>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">86738</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">Público</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="String">Existe alguma forma de limpar ou apagar e-mails por dentro do Netbox?</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="String">AB Agrobrasil / Infasa</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="String">Thiago Oliveira de Carvalho</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="String">Gateway</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="String">Gateway 02</Data></Cell>
+				<Cell ss:StyleID="xls-style-4"><Data ss:Type="String">09/11/2021 07:41</Data></Cell>
+				<Cell ss:StyleID="xls-style-4"><Data ss:Type="String">09/11/2021 09:05</Data></Cell>
+				<Cell ss:StyleID="xls-style-4"><Data ss:Type="String">09/11/2021 09:26</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="String">Qual sua avaliação para esse atendimento?</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">10</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String"></Data></Cell>
+			</Row>
+			<Row>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">86745</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">Público</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="String">Bloqueio de E-mails </Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="String">Nova Opção</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="String">Kalvin Maltez</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="String">Gateway</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="String">Gateway 02</Data></Cell>
+				<Cell ss:StyleID="xls-style-4"><Data ss:Type="String">09/11/2021 08:48</Data></Cell>
+				<Cell ss:StyleID="xls-style-4"><Data ss:Type="String">09/11/2021 11:46</Data></Cell>
+				<Cell ss:StyleID="xls-style-4"><Data ss:Type="String">09/11/2021 16:08</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="String">Qual sua avaliação para esse atendimento?</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">10</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">Duvida resolvida</Data></Cell>
+			</Row>
+			<Row>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">86860</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">Público</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="String">Criação de Usuario</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="String">Vialaser Depilação</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="String">Lucas Correa</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="String">Gateway</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="String">Gateway 02</Data></Cell>
+				<Cell ss:StyleID="xls-style-4"><Data ss:Type="String">12/11/2021 14:35</Data></Cell>
+				<Cell ss:StyleID="xls-style-4"><Data ss:Type="String">12/11/2021 17:46</Data></Cell>
+				<Cell ss:StyleID="xls-style-4"><Data ss:Type="String">19/11/2021 20:26</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="String">Qual sua avaliação para esse atendimento?</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">10</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String"></Data></Cell>
+			</Row>
+			<Row>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">86875</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">Público</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="String">Criar Redirecionamento.</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="String">Arlete Transportes</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="String">Generoso</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="String">Gateway</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="String">Gateway 02</Data></Cell>
+				<Cell ss:StyleID="xls-style-4"><Data ss:Type="String">12/11/2021 16:53</Data></Cell>
+				<Cell ss:StyleID="xls-style-4"><Data ss:Type="String">12/11/2021 17:22</Data></Cell>
+				<Cell ss:StyleID="xls-style-4"><Data ss:Type="String">12/11/2021 17:26</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="String">Qual sua avaliação para esse atendimento?</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">10</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">Resolvido rapidamente</Data></Cell>
+			</Row>
+			<Row>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">86764</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">Público</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="String">Novo servidor virtual criado para o Oracle de testes do IHC não está acessando o ftp da Digisystem.</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="String">Hospital Baía Sul / Clínica Imagem</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="String">Gustavo Henrique de Lima</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="String">Time N2</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="String">Josias Caetano Rodrigues de Faria</Data></Cell>
+				<Cell ss:StyleID="xls-style-4"><Data ss:Type="String">09/11/2021 12:53</Data></Cell>
+				<Cell ss:StyleID="xls-style-4"><Data ss:Type="String">10/11/2021 15:27</Data></Cell>
+				<Cell ss:StyleID="xls-style-4"><Data ss:Type="String">16/11/2021 10:32</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="String">Qual sua avaliação para esse atendimento?</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">10</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String"></Data></Cell>
+			</Row>
+			<Row>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">86784</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">Público</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="String">Certificado Email</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="String">Grupo Triangulo</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="String">Bruno</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="String">Time N2</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="String">Josias Caetano Rodrigues de Faria</Data></Cell>
+				<Cell ss:StyleID="xls-style-4"><Data ss:Type="String">10/11/2021 10:32</Data></Cell>
+				<Cell ss:StyleID="xls-style-4"><Data ss:Type="String">11/11/2021 11:19</Data></Cell>
+				<Cell ss:StyleID="xls-style-4"><Data ss:Type="String">11/11/2021 14:30</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="String">Qual sua avaliação para esse atendimento?</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">10</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String"></Data></Cell>
+			</Row>
+			<Row>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">86769</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">Público</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="String">liberação de portas</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="String">Giassi Confecções</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="String">Leandro F Zilli</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="String">Gateway</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="String">Gateway 01</Data></Cell>
+				<Cell ss:StyleID="xls-style-4"><Data ss:Type="String">09/11/2021 15:35</Data></Cell>
+				<Cell ss:StyleID="xls-style-4"><Data ss:Type="String">09/11/2021 16:00</Data></Cell>
+				<Cell ss:StyleID="xls-style-4"><Data ss:Type="String">09/11/2021 17:21</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="String">Qual sua avaliação para esse atendimento?</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">10</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String"></Data></Cell>
+			</Row>
+			<Row>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">86859</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">Público</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="String">Re: RES: RES: Conexão Convcard/Utilcard - VPN Dimed</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="String">Trier Sistemas / Convcard</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="String">Suporte - ConvCard</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="String">Time N2</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="String">Jonatas Silva</Data></Cell>
+				<Cell ss:StyleID="xls-style-4"><Data ss:Type="String">12/11/2021 14:26</Data></Cell>
+				<Cell ss:StyleID="xls-style-4"><Data ss:Type="String">17/11/2021 09:57</Data></Cell>
+				<Cell ss:StyleID="xls-style-4"><Data ss:Type="String">22/11/2021 11:23</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="String">Qual sua avaliação para esse atendimento?</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">10</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String"></Data></Cell>
+			</Row>
+			<Row>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">86788</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">Público</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="String">Novo Link internet - Kolina Premium Tubarão</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="String">Kolina</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="String">Joni Carlos Steffens</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="String">Time A</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="String">Henrique Silveira Avila</Data></Cell>
+				<Cell ss:StyleID="xls-style-4"><Data ss:Type="String">10/11/2021 10:51</Data></Cell>
+				<Cell ss:StyleID="xls-style-4"><Data ss:Type="String">18/11/2021 12:25</Data></Cell>
+				<Cell ss:StyleID="xls-style-4"><Data ss:Type="String">23/11/2021 13:52</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="String">Qual sua avaliação para esse atendimento?</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">10</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String"></Data></Cell>
+			</Row>
+			<Row>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">86919</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">Público</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="String">Tela de Captcha para acesso a páginas da internet</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="String">UNIFORMG</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="String">Henrique Eustáquio Pinto</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="String">Time A</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="String">Henrique Silveira Avila</Data></Cell>
+				<Cell ss:StyleID="xls-style-4"><Data ss:Type="String">16/11/2021 12:21</Data></Cell>
+				<Cell ss:StyleID="xls-style-4"><Data ss:Type="String">17/11/2021 16:39</Data></Cell>
+				<Cell ss:StyleID="xls-style-4"><Data ss:Type="String">18/11/2021 12:49</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="String">Qual sua avaliação para esse atendimento?</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">10</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String"></Data></Cell>
+			</Row>
+			<Row>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">86911</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">Público</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="String">PROBLEMA CONEXÃO OUTLOOK HIDROLIGHT</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="String">Hidrolight</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="String">guilherme loeblein</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="String">Time A</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="String">Henrique Silveira Avila</Data></Cell>
+				<Cell ss:StyleID="xls-style-4"><Data ss:Type="String">16/11/2021 10:34</Data></Cell>
+				<Cell ss:StyleID="xls-style-4"><Data ss:Type="String">16/11/2021 14:21</Data></Cell>
+				<Cell ss:StyleID="xls-style-4"><Data ss:Type="String">16/11/2021 14:26</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="String">Qual sua avaliação para esse atendimento?</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">10</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String"></Data></Cell>
+			</Row>
+			<Row>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">86595</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">Público</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="String">Configuração Maquina Firewall</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="String">Giassi Confecções</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="String">Leandro F Zilli</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="String">Time A</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="String">Henrique Silveira Avila</Data></Cell>
+				<Cell ss:StyleID="xls-style-4"><Data ss:Type="String">01/11/2021 14:01</Data></Cell>
+				<Cell ss:StyleID="xls-style-4"><Data ss:Type="String">03/11/2021 09:55</Data></Cell>
+				<Cell ss:StyleID="xls-style-4"><Data ss:Type="String">03/11/2021 11:15</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="String">Qual sua avaliação para esse atendimento?</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">10</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String"></Data></Cell>
+			</Row>
+			<Row>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">86766</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">Público</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="String">Agendar serviço de manutenção firewall</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="String">Vancouros</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="String">walter</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="String">Time A</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="String">Henrique Silveira Avila</Data></Cell>
+				<Cell ss:StyleID="xls-style-4"><Data ss:Type="String">09/11/2021 14:51</Data></Cell>
+				<Cell ss:StyleID="xls-style-4"><Data ss:Type="String">23/11/2021 11:15</Data></Cell>
+				<Cell ss:StyleID="xls-style-4"><Data ss:Type="String">07/12/2021 16:05</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="String">Qual sua avaliação para esse atendimento?</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">9</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String"></Data></Cell>
+			</Row>
+			<Row>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">86863</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">Público</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="String">Habilitar a proteção de intrusão</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="String">Vicato Alimentos</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="String">Geraldo Menon Jr</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="String">Time A</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="String">Henrique Silveira Avila</Data></Cell>
+				<Cell ss:StyleID="xls-style-4"><Data ss:Type="String">12/11/2021 14:42</Data></Cell>
+				<Cell ss:StyleID="xls-style-4"><Data ss:Type="String">17/11/2021 11:25</Data></Cell>
+				<Cell ss:StyleID="xls-style-4"><Data ss:Type="String">17/11/2021 14:27</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="String">Qual sua avaliação para esse atendimento?</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">10</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String"></Data></Cell>
+			</Row>
+			<Row>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">86976</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">Público</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="String">Acesso externo a aplicação WEB</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="String">DL Prestação de Serviços</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="String">William Junior Oliveira Alves</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="String">Time A</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="String">Henrique Silveira Avila</Data></Cell>
+				<Cell ss:StyleID="xls-style-4"><Data ss:Type="String">18/11/2021 14:55</Data></Cell>
+				<Cell ss:StyleID="xls-style-4"><Data ss:Type="String">22/11/2021 17:44</Data></Cell>
+				<Cell ss:StyleID="xls-style-4"><Data ss:Type="String">22/11/2021 17:45</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="String">Qual sua avaliação para esse atendimento?</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">10</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String"></Data></Cell>
+			</Row>
+			<Row>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">86939</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">Público</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="String">Auxílio para diagnóstico - Retorno de email não enviado</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="String">Wiser Tecnologia</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="String">Jony do Vale</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="String">Time A</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="String">Yuri Zabot dos Santos</Data></Cell>
+				<Cell ss:StyleID="xls-style-4"><Data ss:Type="String">17/11/2021 09:26</Data></Cell>
+				<Cell ss:StyleID="xls-style-4"><Data ss:Type="String">24/11/2021 15:47</Data></Cell>
+				<Cell ss:StyleID="xls-style-4"><Data ss:Type="String">30/11/2021 09:14</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="String">Qual sua avaliação para esse atendimento?</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">10</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String"></Data></Cell>
+			</Row>
+			<Row>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">86948</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">Público</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="String">Procedimento para acesso Firewall via LDAP</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="String">PROC</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="String">Carlos - Proc Soluções</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="String">Time A</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="String">Yuri Zabot dos Santos</Data></Cell>
+				<Cell ss:StyleID="xls-style-4"><Data ss:Type="String">17/11/2021 15:11</Data></Cell>
+				<Cell ss:StyleID="xls-style-4"><Data ss:Type="String">23/11/2021 16:34</Data></Cell>
+				<Cell ss:StyleID="xls-style-4"><Data ss:Type="String">30/11/2021 13:19</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="String">Qual sua avaliação para esse atendimento?</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">7</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">Ticket nao Finalizado, é do Pires (Gonçalves e Oliveira)
+ATT</Data></Cell>
+			</Row>
+			<Row>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">86841</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">Público</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="String">Problemas com site interno!</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="String">Mademil Fundição Ltda</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="String">Marcell Minatto Michels</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="String">Time A</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="String">Yuri Zabot dos Santos</Data></Cell>
+				<Cell ss:StyleID="xls-style-4"><Data ss:Type="String">12/11/2021 09:27</Data></Cell>
+				<Cell ss:StyleID="xls-style-4"><Data ss:Type="String">12/11/2021 10:38</Data></Cell>
+				<Cell ss:StyleID="xls-style-4"><Data ss:Type="String">12/11/2021 10:50</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="String">Qual sua avaliação para esse atendimento?</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">10</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">Ficou 100%! Obrigado! Excelente atendimento! </Data></Cell>
+			</Row>
+			<Row>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">86895</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">Público</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="String">Servidor de email</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="String">Rio Deserto</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="String">Rafael Michels Américo</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="String">Time A</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="String">Yuri Zabot dos Santos</Data></Cell>
+				<Cell ss:StyleID="xls-style-4"><Data ss:Type="String">16/11/2021 09:12</Data></Cell>
+				<Cell ss:StyleID="xls-style-4"><Data ss:Type="String">16/11/2021 14:05</Data></Cell>
+				<Cell ss:StyleID="xls-style-4"><Data ss:Type="String">16/11/2021 14:46</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="String">Qual sua avaliação para esse atendimento?</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">10</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String"></Data></Cell>
+			</Row>
+			<Row>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">86921</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">Público</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="String">Falta de Espaco</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="String">New Promotion</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="String">João Alfredo Paulo Prianti</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="String">Time A</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="String">Yuri Zabot dos Santos</Data></Cell>
+				<Cell ss:StyleID="xls-style-4"><Data ss:Type="String">16/11/2021 14:06</Data></Cell>
+				<Cell ss:StyleID="xls-style-4"><Data ss:Type="String">16/11/2021 16:18</Data></Cell>
+				<Cell ss:StyleID="xls-style-4"><Data ss:Type="String">16/11/2021 16:47</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="String">Qual sua avaliação para esse atendimento?</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">10</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String"></Data></Cell>
+			</Row>
+			<Row>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">86839</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">Público</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="String">Dúvidas sobre log e dashboard</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="String">AB Agrobrasil / Infasa</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="String">Thiago Oliveira de Carvalho</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="String">Time A</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="String">Yuri Zabot dos Santos</Data></Cell>
+				<Cell ss:StyleID="xls-style-4"><Data ss:Type="String">12/11/2021 09:22</Data></Cell>
+				<Cell ss:StyleID="xls-style-4"><Data ss:Type="String">22/11/2021 11:45</Data></Cell>
+				<Cell ss:StyleID="xls-style-4"><Data ss:Type="String">22/11/2021 13:50</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="String">Qual sua avaliação para esse atendimento?</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">6</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">Agradeço pelo atendimento, mas acredito que 10 dias seja um tempo um pouco alto para esta solução.</Data></Cell>
+			</Row>
+			<Row>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">86724</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">Público</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="String">Acesso ao webmail.infasa.com.br</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="String">AB Agrobrasil / Infasa</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="String">Thiago Oliveira de Carvalho</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="String">Time A</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="String">Yuri Zabot dos Santos</Data></Cell>
+				<Cell ss:StyleID="xls-style-4"><Data ss:Type="String">08/11/2021 11:04</Data></Cell>
+				<Cell ss:StyleID="xls-style-4"><Data ss:Type="String">08/11/2021 11:36</Data></Cell>
+				<Cell ss:StyleID="xls-style-4"><Data ss:Type="String">08/11/2021 11:37</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="String">Qual sua avaliação para esse atendimento?</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">10</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String"></Data></Cell>
+			</Row>
+			<Row>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">86733</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">Público</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="String">Próspera - Sem acesso a navegação</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="String">Supermercados Manentti</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="String">Mateus Brognoli Silvano</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="String">Time A</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="String">Rickyson Marcilio Figueiredo</Data></Cell>
+				<Cell ss:StyleID="xls-style-4"><Data ss:Type="String">08/11/2021 16:07</Data></Cell>
+				<Cell ss:StyleID="xls-style-4"><Data ss:Type="String">09/11/2021 08:49</Data></Cell>
+				<Cell ss:StyleID="xls-style-4"><Data ss:Type="String">12/11/2021 14:55</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="String">Qual sua avaliação para esse atendimento?</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">9</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String"></Data></Cell>
+			</Row>
+			<Row>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">86826</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">Público</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="String">Firewall PSA - 200.175.61.61</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="String">PSA Informática</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="String">Eduardo Vieira Cardoso</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="String">Gateway</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="String">Gateway 03</Data></Cell>
+				<Cell ss:StyleID="xls-style-4"><Data ss:Type="String">11/11/2021 15:27</Data></Cell>
+				<Cell ss:StyleID="xls-style-4"><Data ss:Type="String">16/11/2021 08:46</Data></Cell>
+				<Cell ss:StyleID="xls-style-4"><Data ss:Type="String">16/11/2021 08:47</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="String">Qual sua avaliação para esse atendimento?</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">10</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String"></Data></Cell>
+			</Row>
+			<Row>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">86856</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">Público</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="String">Firebox Matriz - Relatório de Análise e Evolução de Segurança </Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="String">Vicato Alimentos</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="String">Geraldo Menon Jr</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="String">Gateway</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="String">Gateway 03</Data></Cell>
+				<Cell ss:StyleID="xls-style-4"><Data ss:Type="String">12/11/2021 14:19</Data></Cell>
+				<Cell ss:StyleID="xls-style-4"><Data ss:Type="String">12/11/2021 15:11</Data></Cell>
+				<Cell ss:StyleID="xls-style-4"><Data ss:Type="String">18/11/2021 11:07</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="String">Qual sua avaliação para esse atendimento?</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">10</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String"></Data></Cell>
+			</Row>
+			<Row>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">86798</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">Público</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="String">liberação de portas</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="String">Giassi Confecções</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="String">Leandro F Zilli</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="String">Gateway</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="String">Gateway 03</Data></Cell>
+				<Cell ss:StyleID="xls-style-4"><Data ss:Type="String">10/11/2021 16:27</Data></Cell>
+				<Cell ss:StyleID="xls-style-4"><Data ss:Type="String">10/11/2021 16:36</Data></Cell>
+				<Cell ss:StyleID="xls-style-4"><Data ss:Type="String">10/11/2021 17:05</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="String">Qual sua avaliação para esse atendimento?</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">10</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String"></Data></Cell>
+			</Row>
+			<Row>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">86773</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">Público</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="String">Realizar Liberação
+</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="String">Guimarães Produtos de Limpeza</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="String">Leonardo</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="String">Gateway</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="String">Gateway 03</Data></Cell>
+				<Cell ss:StyleID="xls-style-4"><Data ss:Type="String">09/11/2021 16:46</Data></Cell>
+				<Cell ss:StyleID="xls-style-4"><Data ss:Type="String">09/11/2021 17:13</Data></Cell>
+				<Cell ss:StyleID="xls-style-4"><Data ss:Type="String">11/11/2021 09:47</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="String">Qual sua avaliação para esse atendimento?</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">10</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String"></Data></Cell>
+			</Row>
+			<Row>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">86854</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">Público</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="String">Encaminhamento de emails</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="String">CEGERO</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="String">Ronaldo Warmeling</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="String">Time A</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="String">Nicolas Costa</Data></Cell>
+				<Cell ss:StyleID="xls-style-4"><Data ss:Type="String">12/11/2021 12:53</Data></Cell>
+				<Cell ss:StyleID="xls-style-4"><Data ss:Type="String">17/11/2021 17:36</Data></Cell>
+				<Cell ss:StyleID="xls-style-4"><Data ss:Type="String">24/11/2021 16:16</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="String">Qual sua avaliação para esse atendimento?</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">10</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String"></Data></Cell>
+			</Row>
+			<Row>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">86857</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">Público</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="String">Firebox Marcelino - Relatório de Análise e Evolução de Segurança</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="String">Vicato Alimentos</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="String">Geraldo Menon Jr</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="String">Time A</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="String">Nicolas Costa</Data></Cell>
+				<Cell ss:StyleID="xls-style-4"><Data ss:Type="String">12/11/2021 14:24</Data></Cell>
+				<Cell ss:StyleID="xls-style-4"><Data ss:Type="String">12/11/2021 17:17</Data></Cell>
+				<Cell ss:StyleID="xls-style-4"><Data ss:Type="String">18/11/2021 11:06</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="String">Qual sua avaliação para esse atendimento?</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">10</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String"></Data></Cell>
+			</Row>
+			<Row>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">86778</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">Público</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="String">Liberação para Atualização Switch</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="String">Giassi Confecções</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="String">Leandro F Zilli</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="String">Time A</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="String">Nicolas Costa</Data></Cell>
+				<Cell ss:StyleID="xls-style-4"><Data ss:Type="String">10/11/2021 08:47</Data></Cell>
+				<Cell ss:StyleID="xls-style-4"><Data ss:Type="String">10/11/2021 17:17</Data></Cell>
+				<Cell ss:StyleID="xls-style-4"><Data ss:Type="String">10/11/2021 17:33</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="String">Qual sua avaliação para esse atendimento?</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">10</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String"></Data></Cell>
+			</Row>
+			<Row>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">86916</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">Público</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="String">Mail Suite  - Emails chamados OSTEC Spam</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="String">Vicato Alimentos</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="String">Geraldo Menon Jr</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="String">Time A</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="String">Nicolas Costa</Data></Cell>
+				<Cell ss:StyleID="xls-style-4"><Data ss:Type="String">16/11/2021 11:34</Data></Cell>
+				<Cell ss:StyleID="xls-style-4"><Data ss:Type="String">18/11/2021 13:52</Data></Cell>
+				<Cell ss:StyleID="xls-style-4"><Data ss:Type="String">24/11/2021 07:59</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="String">Qual sua avaliação para esse atendimento?</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">10</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String"></Data></Cell>
+			</Row>
+			<Row>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">86876</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">Público</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="String">Firebox Silo - Listagem de portas abertas no firewall</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="String">Vicato Alimentos</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="String">Geraldo Menon Jr</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="String">Time A</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="String">Nicolas Costa</Data></Cell>
+				<Cell ss:StyleID="xls-style-4"><Data ss:Type="String">12/11/2021 17:08</Data></Cell>
+				<Cell ss:StyleID="xls-style-4"><Data ss:Type="String">17/11/2021 08:50</Data></Cell>
+				<Cell ss:StyleID="xls-style-4"><Data ss:Type="String">18/11/2021 11:05</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="String">Qual sua avaliação para esse atendimento?</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">10</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String"></Data></Cell>
+			</Row>
+			<Row>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">86861</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">Público</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="String">Relação das portas abertas.</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="String">Vicato Alimentos</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="String">Geraldo Menon Jr</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="String">Time A</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="String">Nicolas Costa</Data></Cell>
+				<Cell ss:StyleID="xls-style-4"><Data ss:Type="String">12/11/2021 14:36</Data></Cell>
+				<Cell ss:StyleID="xls-style-4"><Data ss:Type="String">17/11/2021 10:28</Data></Cell>
+				<Cell ss:StyleID="xls-style-4"><Data ss:Type="String">18/11/2021 11:03</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="String">Qual sua avaliação para esse atendimento?</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">10</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String"></Data></Cell>
+			</Row>
+			<Row>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">86940</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">Público</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="String">Configuração de chromecast</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="String">Plaszom</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="String">Gustavo Simon Soares</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="String">Time A</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="String">Nicolas Costa</Data></Cell>
+				<Cell ss:StyleID="xls-style-4"><Data ss:Type="String">17/11/2021 10:05</Data></Cell>
+				<Cell ss:StyleID="xls-style-4"><Data ss:Type="String">18/11/2021 09:21</Data></Cell>
+				<Cell ss:StyleID="xls-style-4"><Data ss:Type="String">18/11/2021 09:21</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="String">Qual sua avaliação para esse atendimento?</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">10</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String"></Data></Cell>
+			</Row>
+			<Row>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">86817</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">Público</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="String">Loja 16</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="String">Palácio das tintas</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="String">Lucas de Medeiros</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="String">Time A</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="String">Nicolas Costa</Data></Cell>
+				<Cell ss:StyleID="xls-style-4"><Data ss:Type="String">12/11/2021 08:51</Data></Cell>
+				<Cell ss:StyleID="xls-style-4"><Data ss:Type="String">12/11/2021 17:15</Data></Cell>
+				<Cell ss:StyleID="xls-style-4"><Data ss:Type="String">12/11/2021 17:22</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="String">Qual sua avaliação para esse atendimento?</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">10</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String"></Data></Cell>
+			</Row>
+			<Row>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">86847</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">Público</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="String">Sem acesso ao FIREBOX do hospital baia sul</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="String">Hospital Baía Sul / Clínica Imagem</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="String">Thiago Ventura</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="String">Time A</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="String">Nicolas Costa</Data></Cell>
+				<Cell ss:StyleID="xls-style-4"><Data ss:Type="String">12/11/2021 10:27</Data></Cell>
+				<Cell ss:StyleID="xls-style-4"><Data ss:Type="String">12/11/2021 10:48</Data></Cell>
+				<Cell ss:StyleID="xls-style-4"><Data ss:Type="String">12/11/2021 12:43</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="String">Qual sua avaliação para esse atendimento?</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">10</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String"></Data></Cell>
+			</Row>
+			<Row>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">86924</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">Público</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="String">Uso do aplicativo Zimbra.</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="String">Tubarão Saneamento</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="String">André Titon</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="String">Time N1 (+S)</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="String">Emanuel Douglas</Data></Cell>
+				<Cell ss:StyleID="xls-style-4"><Data ss:Type="String">16/11/2021 16:11</Data></Cell>
+				<Cell ss:StyleID="xls-style-4"><Data ss:Type="String">17/11/2021 15:20</Data></Cell>
+				<Cell ss:StyleID="xls-style-4"><Data ss:Type="String">17/11/2021 17:55</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="String">Qual sua avaliação para esse atendimento?</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">10</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String"></Data></Cell>
+			</Row>
+			<Row>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">86814</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">Público</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="String">DC02 com disco C cheio.</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="String">Budny</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="String">Caio Campos</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="String">Time N1 (+S)</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="String">Emanuel Douglas</Data></Cell>
+				<Cell ss:StyleID="xls-style-4"><Data ss:Type="String">11/11/2021 11:54</Data></Cell>
+				<Cell ss:StyleID="xls-style-4"><Data ss:Type="String">11/11/2021 15:54</Data></Cell>
+				<Cell ss:StyleID="xls-style-4"><Data ss:Type="String">17/11/2021 07:22</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="String">Qual sua avaliação para esse atendimento?</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">10</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String"></Data></Cell>
+			</Row>
+			<Row>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">86811</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">Público</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="String">Problema na VM</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="String">Cergal</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="String">Tiago Aguiar Firmino</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="String">Time N1 (+S)</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="String">Emanuel Douglas</Data></Cell>
+				<Cell ss:StyleID="xls-style-4"><Data ss:Type="String">11/11/2021 10:46</Data></Cell>
+				<Cell ss:StyleID="xls-style-4"><Data ss:Type="String">11/11/2021 14:08</Data></Cell>
+				<Cell ss:StyleID="xls-style-4"><Data ss:Type="String">11/11/2021 14:16</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="String">Qual sua avaliação para esse atendimento?</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">10</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String"></Data></Cell>
+			</Row>
+			<Row>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">86849</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">Público</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="String">Barrar conexões espúrias que pelo volume impedem acesso ao site da empresa</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="String">APPE</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="String">APPE LTDA</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="String">Time A</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="String">Daniel Cardoso Queiroz</Data></Cell>
+				<Cell ss:StyleID="xls-style-4"><Data ss:Type="String">12/11/2021 15:25</Data></Cell>
+				<Cell ss:StyleID="xls-style-4"><Data ss:Type="String">24/11/2021 08:51</Data></Cell>
+				<Cell ss:StyleID="xls-style-4"><Data ss:Type="String">03/12/2021 10:08</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="String">Qual sua avaliação para esse atendimento?</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">9</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String"></Data></Cell>
+			</Row>
+			<Row>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">86793</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">Público</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="String">Conexão Neoprene &lt;&gt; BM3</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="String">Neoprene Brasil Ltda</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="String">Paulo Latrônico</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="String">Time A</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="String">Daniel Cardoso Queiroz</Data></Cell>
+				<Cell ss:StyleID="xls-style-4"><Data ss:Type="String">10/11/2021 11:51</Data></Cell>
+				<Cell ss:StyleID="xls-style-4"><Data ss:Type="String">11/11/2021 11:44</Data></Cell>
+				<Cell ss:StyleID="xls-style-4"><Data ss:Type="String">11/11/2021 12:58</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="String">Qual sua avaliação para esse atendimento?</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">10</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String"></Data></Cell>
+			</Row>
+			<Row>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">86962</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">Público</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="String">Mail suite não está funcionando</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="String">Vicato Alimentos</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="String">Geraldo Menon Jr</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="String">Time A</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="String">Daniel Cardoso Queiroz</Data></Cell>
+				<Cell ss:StyleID="xls-style-4"><Data ss:Type="String">18/11/2021 07:47</Data></Cell>
+				<Cell ss:StyleID="xls-style-4"><Data ss:Type="String">18/11/2021 11:10</Data></Cell>
+				<Cell ss:StyleID="xls-style-4"><Data ss:Type="String">18/11/2021 14:16</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="String">Qual sua avaliação para esse atendimento?</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">10</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String"></Data></Cell>
+			</Row>
+			<Row>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">86774</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">Público</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="String">Verificação de acesso à VPN por aplicativo atualizado</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="String">PROC</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="String">Cassiano</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="String">Time A</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="String">Daniel Cardoso Queiroz</Data></Cell>
+				<Cell ss:StyleID="xls-style-4"><Data ss:Type="String">09/11/2021 17:37</Data></Cell>
+				<Cell ss:StyleID="xls-style-4"><Data ss:Type="String">17/11/2021 08:36</Data></Cell>
+				<Cell ss:StyleID="xls-style-4"><Data ss:Type="String">15/12/2021 14:43</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="String">Qual sua avaliação para esse atendimento?</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">10</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String"></Data></Cell>
+			</Row>
+			<Row>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">86779</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">Público</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="String">Balanceamento de link.</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="String">Vialaser Depilação</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="String">Lucas Correa</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="String">Time A</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="String">Felipe Souza Baptista</Data></Cell>
+				<Cell ss:StyleID="xls-style-4"><Data ss:Type="String">10/11/2021 09:14</Data></Cell>
+				<Cell ss:StyleID="xls-style-4"><Data ss:Type="String">16/11/2021 17:41</Data></Cell>
+				<Cell ss:StyleID="xls-style-4"><Data ss:Type="String">19/11/2021 20:26</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="String">Qual sua avaliação para esse atendimento?</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">10</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String"></Data></Cell>
+			</Row>
+			<Row>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">86929</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">Público</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="String">Windows Update</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="String">Giassi Confecções</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="String">Leandro F Zilli</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="String">Time A</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="String">Felipe Souza Baptista</Data></Cell>
+				<Cell ss:StyleID="xls-style-4"><Data ss:Type="String">16/11/2021 17:06</Data></Cell>
+				<Cell ss:StyleID="xls-style-4"><Data ss:Type="String">22/11/2021 15:14</Data></Cell>
+				<Cell ss:StyleID="xls-style-4"><Data ss:Type="String">22/11/2021 15:26</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="String">Qual sua avaliação para esse atendimento?</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">10</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String"></Data></Cell>
+			</Row>
+			<Row>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">86855</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">Público</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="String">Direcionamento de Internet</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="String">Zero Grau</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="String">Ronei</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="String">Time A</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="String">Felipe Souza Baptista</Data></Cell>
+				<Cell ss:StyleID="xls-style-4"><Data ss:Type="String">12/11/2021 13:04</Data></Cell>
+				<Cell ss:StyleID="xls-style-4"><Data ss:Type="String">16/11/2021 17:30</Data></Cell>
+				<Cell ss:StyleID="xls-style-4"><Data ss:Type="String">09/12/2021 09:58</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="String">Qual sua avaliação para esse atendimento?</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">10</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">Dentro do possível foi tudo Resolvido!</Data></Cell>
+			</Row>
+			<Row>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">86739</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">Público</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="String">Alteração de provedor de internet</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="String">Usindi</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="String">Rafael Rocha da Silva</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="String">Time A</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="String">Felipe Souza Baptista</Data></Cell>
+				<Cell ss:StyleID="xls-style-4"><Data ss:Type="String">09/11/2021 07:55</Data></Cell>
+				<Cell ss:StyleID="xls-style-4"><Data ss:Type="String">12/11/2021 08:49</Data></Cell>
+				<Cell ss:StyleID="xls-style-4"><Data ss:Type="String">16/11/2021 08:18</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="String">Qual sua avaliação para esse atendimento?</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">10</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String"></Data></Cell>
+			</Row>
+			<Row>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">86956</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">Público</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="String">Problema Backup manual no Net Service.</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="String">D. Carvalho</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="String">Rafael Cellone Ribeiro</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="String">Time A</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="String">Felipe Souza Baptista</Data></Cell>
+				<Cell ss:StyleID="xls-style-4"><Data ss:Type="String">17/11/2021 16:18</Data></Cell>
+				<Cell ss:StyleID="xls-style-4"><Data ss:Type="String">18/11/2021 14:27</Data></Cell>
+				<Cell ss:StyleID="xls-style-4"><Data ss:Type="String">24/11/2021 10:14</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="String">Qual sua avaliação para esse atendimento?</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">10</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String"></Data></Cell>
+			</Row>
+			<Row>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">86971</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">Público</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="String">Nenhuma VPN funciona - Grupo Infasa</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="String">AB Agrobrasil / Infasa</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="String">Thiago Oliveira de Carvalho</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="String">Time A</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="String">Felipe Souza Baptista</Data></Cell>
+				<Cell ss:StyleID="xls-style-4"><Data ss:Type="String">18/11/2021 11:27</Data></Cell>
+				<Cell ss:StyleID="xls-style-4"><Data ss:Type="String">19/11/2021 15:24</Data></Cell>
+				<Cell ss:StyleID="xls-style-4"><Data ss:Type="String">19/11/2021 15:32</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="String">Qual sua avaliação para esse atendimento?</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">10</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">Agradeço ao Felipe pelo atendimento. Respondeu sempre de forma rápida o atendimento. Uma dica geral agora, nem todo o problema pode ser resolvido de imediato, mas dar um feedback ao cliente sobre &quot;em que pé está&quot; é sempre legal e evita maiores transtornos. Obrigado mais uma vez pela ajuda e bom fim de semana.</Data></Cell>
+			</Row>
+			<Row>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">86853</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">Público</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="String">Portal Cativo</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="String">Rio Deserto</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="String">Rafael Michels Américo</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="String">Time A</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="String">Felipe Souza Baptista</Data></Cell>
+				<Cell ss:StyleID="xls-style-4"><Data ss:Type="String">12/11/2021 13:22</Data></Cell>
+				<Cell ss:StyleID="xls-style-4"><Data ss:Type="String">19/11/2021 13:38</Data></Cell>
+				<Cell ss:StyleID="xls-style-4"><Data ss:Type="String">19/11/2021 13:52</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="String">Qual sua avaliação para esse atendimento?</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">10</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String"></Data></Cell>
+			</Row>
+			<Row>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">86782</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">Público</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="String">Captcha</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="String">Plaszom</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="String">Gustavo Simon Soares</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="String">Time A</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="String">Felipe Souza Baptista</Data></Cell>
+				<Cell ss:StyleID="xls-style-4"><Data ss:Type="String">10/11/2021 10:03</Data></Cell>
+				<Cell ss:StyleID="xls-style-4"><Data ss:Type="String">10/11/2021 11:29</Data></Cell>
+				<Cell ss:StyleID="xls-style-4"><Data ss:Type="String">10/11/2021 11:31</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="String">Qual sua avaliação para esse atendimento?</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">10</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String"></Data></Cell>
+			</Row>
+			<Row>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">86723</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">Público</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="String">Conflito proxy. Terceiro chamado recente sobre o problema. Tickets referência: 86157 85106</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="String">Tubarão Saneamento</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="String">André Titon</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="String">Time A</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="String">Felipe Souza Baptista</Data></Cell>
+				<Cell ss:StyleID="xls-style-4"><Data ss:Type="String">08/11/2021 10:34</Data></Cell>
+				<Cell ss:StyleID="xls-style-4"><Data ss:Type="String">11/11/2021 10:07</Data></Cell>
+				<Cell ss:StyleID="xls-style-4"><Data ss:Type="String">11/11/2021 10:18</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="String">Qual sua avaliação para esse atendimento?</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">10</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String"></Data></Cell>
+			</Row>
+			<Row>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">86736</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">Público</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="String">VPN CPACK</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="String">PSA Informática</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="String">Almir Gercino Alexandre</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="String">Time A</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="String">Junior Selau Lummertz</Data></Cell>
+				<Cell ss:StyleID="xls-style-4"><Data ss:Type="String">08/11/2021 17:42</Data></Cell>
+				<Cell ss:StyleID="xls-style-4"><Data ss:Type="String">09/11/2021 16:18</Data></Cell>
+				<Cell ss:StyleID="xls-style-4"><Data ss:Type="String">09/11/2021 16:25</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="String">Qual sua avaliação para esse atendimento?</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">10</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String"></Data></Cell>
+			</Row>
+			<Row>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">86796</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">Público</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="String">Internet do grupo INFASA não funciona através do proxy</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="String">AB Agrobrasil / Infasa</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="String">Thiago Oliveira de Carvalho</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="String">Time A</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="String">Junior Selau Lummertz</Data></Cell>
+				<Cell ss:StyleID="xls-style-4"><Data ss:Type="String">10/11/2021 15:45</Data></Cell>
+				<Cell ss:StyleID="xls-style-4"><Data ss:Type="String">12/11/2021 09:10</Data></Cell>
+				<Cell ss:StyleID="xls-style-4"><Data ss:Type="String">12/11/2021 09:14</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="String">Qual sua avaliação para esse atendimento?</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">10</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String"></Data></Cell>
+			</Row>
+			<Row>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">86957</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">Público</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="String">Configuração VPN - Erro ao adicionar política padrão</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="String">Wiser Tecnologia</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="String">Jony do Vale</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="String">Time A</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="String">Junior Selau Lummertz</Data></Cell>
+				<Cell ss:StyleID="xls-style-4"><Data ss:Type="String">17/11/2021 16:19</Data></Cell>
+				<Cell ss:StyleID="xls-style-4"><Data ss:Type="String">18/11/2021 11:04</Data></Cell>
+				<Cell ss:StyleID="xls-style-4"><Data ss:Type="String">23/11/2021 11:56</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="String">Qual sua avaliação para esse atendimento?</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">10</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String"></Data></Cell>
+			</Row>
+			<Row>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">86748</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">Público</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="String">Criar nova faixa de IP</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="String">Giassi Confecções</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="String">Leandro F Zilli</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="String">Time A</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="String">Junior Selau Lummertz</Data></Cell>
+				<Cell ss:StyleID="xls-style-4"><Data ss:Type="String">09/11/2021 09:21</Data></Cell>
+				<Cell ss:StyleID="xls-style-4"><Data ss:Type="String">09/11/2021 11:42</Data></Cell>
+				<Cell ss:StyleID="xls-style-4"><Data ss:Type="String">09/11/2021 11:51</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="String">Qual sua avaliação para esse atendimento?</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">10</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String"></Data></Cell>
+			</Row>
+			<Row>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">87091</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">Público</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="String">Questionamentos de segurança Netservices Plaszom</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="String">Plaszom</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="String">Gustavo Simon Soares</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="String">Time N2</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="String">Alexsandro Fabiano dos Passos</Data></Cell>
+				<Cell ss:StyleID="xls-style-4"><Data ss:Type="String">24/11/2021 17:39</Data></Cell>
+				<Cell ss:StyleID="xls-style-4"><Data ss:Type="String">30/11/2021 17:01</Data></Cell>
+				<Cell ss:StyleID="xls-style-4"><Data ss:Type="String">06/12/2021 06:57</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="String">Qual sua avaliação para esse atendimento?</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">10</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">Resolvido.</Data></Cell>
+			</Row>
+			<Row>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">87010</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">Público</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="String">Dúvidas sobre nova VM - criada no ticket 86228</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="String">G7LOG TRANSPORTES LTDA</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="String">Borys</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="String">Time N2 (+S)</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="String">Felippe Cidral</Data></Cell>
+				<Cell ss:StyleID="xls-style-4"><Data ss:Type="String">22/11/2021 11:34</Data></Cell>
+				<Cell ss:StyleID="xls-style-4"><Data ss:Type="String">30/11/2021 15:12</Data></Cell>
+				<Cell ss:StyleID="xls-style-4"><Data ss:Type="String">30/11/2021 15:20</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="String">Qual sua avaliação para esse atendimento?</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">10</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String"></Data></Cell>
+			</Row>
+			<Row>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">87037</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">Público</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="String">Atualização diagrama de rede Servitech Matriz</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="String">Servitech Serviços Téc. Repres. Ltda</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="String">Eduardo Amante</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="String">Time N2 (+S)</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="String">Felippe Cidral</Data></Cell>
+				<Cell ss:StyleID="xls-style-4"><Data ss:Type="String">23/11/2021 14:23</Data></Cell>
+				<Cell ss:StyleID="xls-style-4"><Data ss:Type="String">30/11/2021 11:45</Data></Cell>
+				<Cell ss:StyleID="xls-style-4"><Data ss:Type="String">03/12/2021 11:51</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="String">Qual sua avaliação para esse atendimento?</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">10</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String"></Data></Cell>
+			</Row>
+			<Row>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">87061</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">Público</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="String">TerraPremium - campo verde mato grosso</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="String">Tech Net Soluções em Tecnologia</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="String">Fabio Ferreira Cabral</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="String">Time N2 (+S)</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="String">Felippe Cidral</Data></Cell>
+				<Cell ss:StyleID="xls-style-4"><Data ss:Type="String">24/11/2021 09:55</Data></Cell>
+				<Cell ss:StyleID="xls-style-4"><Data ss:Type="String">24/11/2021 16:07</Data></Cell>
+				<Cell ss:StyleID="xls-style-4"><Data ss:Type="String">02/12/2021 00:12</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="String">Qual sua avaliação para esse atendimento?</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">10</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String"></Data></Cell>
+			</Row>
+			<Row>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">87197</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">Público</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="String">Webmail Inmes</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="String">INMES</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="String">Daniel Petroski</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="String">Administradores</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="String">Gabriel Fonseca</Data></Cell>
+				<Cell ss:StyleID="xls-style-4"><Data ss:Type="String">30/11/2021 08:15</Data></Cell>
+				<Cell ss:StyleID="xls-style-4"><Data ss:Type="String">30/11/2021 11:56</Data></Cell>
+				<Cell ss:StyleID="xls-style-4"><Data ss:Type="String">30/11/2021 16:20</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="String">Qual sua avaliação para esse atendimento?</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">10</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String"></Data></Cell>
+			</Row>
+			<Row>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">87212</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">Público</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="String">Ampliação partição servidor.</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="String">Tubarão Saneamento</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="String">André Titon</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="String">Time N2 (+S)</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="String">Daniel da Silva Rosa</Data></Cell>
+				<Cell ss:StyleID="xls-style-4"><Data ss:Type="String">30/11/2021 11:51</Data></Cell>
+				<Cell ss:StyleID="xls-style-4"><Data ss:Type="String">30/11/2021 14:16</Data></Cell>
+				<Cell ss:StyleID="xls-style-4"><Data ss:Type="String">30/11/2021 14:18</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="String">Qual sua avaliação para esse atendimento?</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">10</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String"></Data></Cell>
+			</Row>
+			<Row>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">87164</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">Público</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="String">Não consegue conectar no Portal Captive</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="String">Copagro</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="String">Maicon de Souza</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="String">Gateway</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="String">Gateway 02</Data></Cell>
+				<Cell ss:StyleID="xls-style-4"><Data ss:Type="String">29/11/2021 10:48</Data></Cell>
+				<Cell ss:StyleID="xls-style-4"><Data ss:Type="String">29/11/2021 10:53</Data></Cell>
+				<Cell ss:StyleID="xls-style-4"><Data ss:Type="String">02/12/2021 11:34</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="String">Qual sua avaliação para esse atendimento?</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">10</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String"></Data></Cell>
+			</Row>
+			<Row>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">87143</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">Público</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="String">CTI Cargo - Ocupação de disco no Mail Security</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="String">Wiser Tecnologia</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="String">Jony do Vale</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="String">Time N2</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="String">Josias Caetano Rodrigues de Faria</Data></Cell>
+				<Cell ss:StyleID="xls-style-4"><Data ss:Type="String">26/11/2021 13:28</Data></Cell>
+				<Cell ss:StyleID="xls-style-4"><Data ss:Type="String">26/11/2021 17:40</Data></Cell>
+				<Cell ss:StyleID="xls-style-4"><Data ss:Type="String">01/12/2021 20:24</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="String">Qual sua avaliação para esse atendimento?</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">10</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String"></Data></Cell>
+			</Row>
+			<Row>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">87060</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">Público</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="String">Problema de email na CTi Cargo</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="String">Wiser Tecnologia</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="String">Jony do Vale</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="String">Time N2</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="String">Josias Caetano Rodrigues de Faria</Data></Cell>
+				<Cell ss:StyleID="xls-style-4"><Data ss:Type="String">24/11/2021 09:18</Data></Cell>
+				<Cell ss:StyleID="xls-style-4"><Data ss:Type="String">25/11/2021 09:10</Data></Cell>
+				<Cell ss:StyleID="xls-style-4"><Data ss:Type="String">30/11/2021 09:15</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="String">Qual sua avaliação para esse atendimento?</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">10</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String"></Data></Cell>
+			</Row>
+			<Row>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">87191</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">Público</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="String">Erro de certificado e-mail</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="String">Plaszom</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="String">Gustavo Simon Soares</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="String">Time N2</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="String">Josias Caetano Rodrigues de Faria</Data></Cell>
+				<Cell ss:StyleID="xls-style-4"><Data ss:Type="String">29/11/2021 16:41</Data></Cell>
+				<Cell ss:StyleID="xls-style-4"><Data ss:Type="String">29/11/2021 17:23</Data></Cell>
+				<Cell ss:StyleID="xls-style-4"><Data ss:Type="String">29/11/2021 17:46</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="String">Qual sua avaliação para esse atendimento?</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">9</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">Resolvido.</Data></Cell>
+			</Row>
+			<Row>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">87141</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">Público</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="String">Duvidas consumo</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="String">Eskimó Sorvetes</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="String">Diego Ferreira Guimaraes</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="String">Gateway</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="String">Gateway 01</Data></Cell>
+				<Cell ss:StyleID="xls-style-4"><Data ss:Type="String">26/11/2021 12:20</Data></Cell>
+				<Cell ss:StyleID="xls-style-4"><Data ss:Type="String">29/11/2021 13:36</Data></Cell>
+				<Cell ss:StyleID="xls-style-4"><Data ss:Type="String">02/12/2021 14:55</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="String">Qual sua avaliação para esse atendimento?</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">10</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String"></Data></Cell>
+			</Row>
+			<Row>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">87070</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">Público</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="String">Falha de navegação no SENAI Joinville Norte 1 (SNJVE05-GW001 - 10.1.79.253)</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="String">FIESC</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="String">Bruno Vitória</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="String">Time N2</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="String">Jonatas Silva</Data></Cell>
+				<Cell ss:StyleID="xls-style-4"><Data ss:Type="String">24/11/2021 11:36</Data></Cell>
+				<Cell ss:StyleID="xls-style-4"><Data ss:Type="String">29/11/2021 09:08</Data></Cell>
+				<Cell ss:StyleID="xls-style-4"><Data ss:Type="String">29/11/2021 10:34</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="String">Qual sua avaliação para esse atendimento?</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">10</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String"></Data></Cell>
+			</Row>
+			<Row>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">87019</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">Público</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="String">Migrar DNS (parte 4)</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="String">Cergal</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="String">Tiago Aguiar Firmino</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="String">Time A</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="String">Henrique Silveira Avila</Data></Cell>
+				<Cell ss:StyleID="xls-style-4"><Data ss:Type="String">22/11/2021 16:01</Data></Cell>
+				<Cell ss:StyleID="xls-style-4"><Data ss:Type="String">24/11/2021 16:23</Data></Cell>
+				<Cell ss:StyleID="xls-style-4"><Data ss:Type="String">24/11/2021 17:16</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="String">Qual sua avaliação para esse atendimento?</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">10</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">Agradecer a equipe, desde o atendimento realizado pelo Yuri a respeito da troca do DNS na Cergal, até o Henrique que finalizou a última pendência a respeito do assunto.</Data></Cell>
+			</Row>
+			<Row>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">86985</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">Público</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="String">erro na VPN do restaurante GRSA</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="String">Eskimó Sorvetes</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="String">Diego Ferreira Guimaraes</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="String">Time A</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="String">Henrique Silveira Avila</Data></Cell>
+				<Cell ss:StyleID="xls-style-4"><Data ss:Type="String">19/11/2021 09:31</Data></Cell>
+				<Cell ss:StyleID="xls-style-4"><Data ss:Type="String">22/11/2021 11:47</Data></Cell>
+				<Cell ss:StyleID="xls-style-4"><Data ss:Type="String">25/11/2021 14:59</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="String">Qual sua avaliação para esse atendimento?</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">10</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String"></Data></Cell>
+			</Row>
+			<Row>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">87056</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">Público</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="String">Sincronização com AD e configuração do proxy</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="String">Diff IT</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="String">César</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="String">Time A</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="String">Henrique Silveira Avila</Data></Cell>
+				<Cell ss:StyleID="xls-style-4"><Data ss:Type="String">24/11/2021 08:27</Data></Cell>
+				<Cell ss:StyleID="xls-style-4"><Data ss:Type="String">30/11/2021 15:39</Data></Cell>
+				<Cell ss:StyleID="xls-style-4"><Data ss:Type="String">26/12/2021 20:53</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="String">Qual sua avaliação para esse atendimento?</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">10</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String"></Data></Cell>
+			</Row>
+			<Row>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">87154</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">Público</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="String">Acesso VPN para SCPolias.</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="String">SCPolias</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="String">Jean Carlo Stein da Fonseca</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="String">Time A</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="String">Henrique Silveira Avila</Data></Cell>
+				<Cell ss:StyleID="xls-style-4"><Data ss:Type="String">29/11/2021 08:28</Data></Cell>
+				<Cell ss:StyleID="xls-style-4"><Data ss:Type="String">30/11/2021 17:18</Data></Cell>
+				<Cell ss:StyleID="xls-style-4"><Data ss:Type="String">02/12/2021 16:10</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="String">Qual sua avaliação para esse atendimento?</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">9</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String"></Data></Cell>
+			</Row>
+			<Row>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">87139</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">Público</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="String">Liberado DMZ</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="String">Onix</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="String">Rafael Rodrigues</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="String">Time A</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="String">Henrique Silveira Avila</Data></Cell>
+				<Cell ss:StyleID="xls-style-4"><Data ss:Type="String">26/11/2021 11:08</Data></Cell>
+				<Cell ss:StyleID="xls-style-4"><Data ss:Type="String">26/11/2021 16:02</Data></Cell>
+				<Cell ss:StyleID="xls-style-4"><Data ss:Type="String">26/11/2021 16:55</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="String">Qual sua avaliação para esse atendimento?</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">10</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">apensar do atraso, foi resolvido de forma satisfatória e explicado como resolver</Data></Cell>
+			</Row>
+			<Row>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">86988</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">Público</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="String">Alteração de DNS</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="String">Adimoveis BH</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="String">Adimoveis Negocios Imobiliários</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="String">Time A</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="String">Henrique Silveira Avila</Data></Cell>
+				<Cell ss:StyleID="xls-style-4"><Data ss:Type="String">19/11/2021 09:53</Data></Cell>
+				<Cell ss:StyleID="xls-style-4"><Data ss:Type="String">19/11/2021 14:52</Data></Cell>
+				<Cell ss:StyleID="xls-style-4"><Data ss:Type="String">24/11/2021 16:13</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="String">Qual sua avaliação para esse atendimento?</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">10</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">Técnico suporte atendeu as prerrogativas da empresa. Solucionando o mais rápido a quartao de DNS dentro do possível a requisição do site empresarial. Atendimento 100% </Data></Cell>
+			</Row>
+			<Row>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">87144</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">Público</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="String">Link principal fora</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="String">Transportadora Pra Frente Brasil</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="String">Roberson Calsavara</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="String">Time A</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="String">Yuri Zabot dos Santos</Data></Cell>
+				<Cell ss:StyleID="xls-style-4"><Data ss:Type="String">26/11/2021 13:36</Data></Cell>
+				<Cell ss:StyleID="xls-style-4"><Data ss:Type="String">26/11/2021 14:42</Data></Cell>
+				<Cell ss:StyleID="xls-style-4"><Data ss:Type="String">26/11/2021 15:56</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="String">Qual sua avaliação para esse atendimento?</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">10</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String"></Data></Cell>
+			</Row>
+			<Row>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">87034</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">Público</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="String">ponto loja 09</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="String">Palácio das tintas</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="String">Lucas de Medeiros</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="String">Time A</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="String">Yuri Zabot dos Santos</Data></Cell>
+				<Cell ss:StyleID="xls-style-4"><Data ss:Type="String">23/11/2021 13:32</Data></Cell>
+				<Cell ss:StyleID="xls-style-4"><Data ss:Type="String">23/11/2021 15:04</Data></Cell>
+				<Cell ss:StyleID="xls-style-4"><Data ss:Type="String">25/11/2021 09:26</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="String">Qual sua avaliação para esse atendimento?</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">10</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String"></Data></Cell>
+			</Row>
+			<Row>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">87040</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">Público</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="String">IP 192.168.20.59 não acessa pesquisas.moval.com.vc</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="String">Moval Móveis Arapongas</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="String">Kenny Laverde</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="String">Time A</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="String">Yuri Zabot dos Santos</Data></Cell>
+				<Cell ss:StyleID="xls-style-4"><Data ss:Type="String">23/11/2021 15:53</Data></Cell>
+				<Cell ss:StyleID="xls-style-4"><Data ss:Type="String">23/11/2021 17:03</Data></Cell>
+				<Cell ss:StyleID="xls-style-4"><Data ss:Type="String">07/12/2021 11:39</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="String">Qual sua avaliação para esse atendimento?</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">10</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String"></Data></Cell>
+			</Row>
+			<Row>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">87063</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">Público</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="String">Acesso ao Adobe Photoshop</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="String">Plaszom</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="String">Gustavo Simon Soares</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="String">Time A</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="String">Rickyson Marcilio Figueiredo</Data></Cell>
+				<Cell ss:StyleID="xls-style-4"><Data ss:Type="String">24/11/2021 10:22</Data></Cell>
+				<Cell ss:StyleID="xls-style-4"><Data ss:Type="String">29/11/2021 11:34</Data></Cell>
+				<Cell ss:StyleID="xls-style-4"><Data ss:Type="String">29/11/2021 11:36</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="String">Qual sua avaliação para esse atendimento?</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">9</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">Resolvido.</Data></Cell>
+			</Row>
+			<Row>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">87113</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">Público</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="String">Conexão Internet - BDGD</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="String">Cergal</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="String">Tiago Aguiar Firmino</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="String">Time A</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="String">Rickyson Marcilio Figueiredo</Data></Cell>
+				<Cell ss:StyleID="xls-style-4"><Data ss:Type="String">25/11/2021 10:31</Data></Cell>
+				<Cell ss:StyleID="xls-style-4"><Data ss:Type="String">30/11/2021 09:12</Data></Cell>
+				<Cell ss:StyleID="xls-style-4"><Data ss:Type="String">30/11/2021 09:22</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="String">Qual sua avaliação para esse atendimento?</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">10</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">Agradeço!</Data></Cell>
+			</Row>
+			<Row>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">86981</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">Público</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="String">Falha no download</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="String">Plaszom</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="String">Gustavo Simon Soares</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="String">Time A</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="String">Nicolas Costa</Data></Cell>
+				<Cell ss:StyleID="xls-style-4"><Data ss:Type="String">18/11/2021 17:03</Data></Cell>
+				<Cell ss:StyleID="xls-style-4"><Data ss:Type="String">23/11/2021 15:57</Data></Cell>
+				<Cell ss:StyleID="xls-style-4"><Data ss:Type="String">29/11/2021 06:53</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="String">Qual sua avaliação para esse atendimento?</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">8</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String"></Data></Cell>
+			</Row>
+			<Row>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">87001</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">Público</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="String">CONTA DE E-MAIL NÃO ENVIADO PARA DOMÍNIO EXTERNO</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="String">Budny</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="String">Caio Campos</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="String">Time A</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="String">Nicolas Costa</Data></Cell>
+				<Cell ss:StyleID="xls-style-4"><Data ss:Type="String">22/11/2021 08:37</Data></Cell>
+				<Cell ss:StyleID="xls-style-4"><Data ss:Type="String">22/11/2021 09:20</Data></Cell>
+				<Cell ss:StyleID="xls-style-4"><Data ss:Type="String">22/11/2021 09:45</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="String">Qual sua avaliação para esse atendimento?</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">10</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String"></Data></Cell>
+			</Row>
+			<Row>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">87124</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">Público</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="String">Problemas de conexão</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="String">Neoprene Brasil Ltda</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="String">Paulo Latrônico</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="String">Time A</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="String">Nicolas Costa</Data></Cell>
+				<Cell ss:StyleID="xls-style-4"><Data ss:Type="String">25/11/2021 15:53</Data></Cell>
+				<Cell ss:StyleID="xls-style-4"><Data ss:Type="String">29/11/2021 15:20</Data></Cell>
+				<Cell ss:StyleID="xls-style-4"><Data ss:Type="String">02/12/2021 15:36</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="String">Qual sua avaliação para esse atendimento?</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">10</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String"></Data></Cell>
+			</Row>
+			<Row>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">87136</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">Público</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="String">E-MAIL PARADO</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="String">Connect Soluções</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="String">João Vitor Santos</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="String">Time A</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="String">Nicolas Costa</Data></Cell>
+				<Cell ss:StyleID="xls-style-4"><Data ss:Type="String">26/11/2021 09:02</Data></Cell>
+				<Cell ss:StyleID="xls-style-4"><Data ss:Type="String">29/11/2021 08:43</Data></Cell>
+				<Cell ss:StyleID="xls-style-4"><Data ss:Type="String">29/11/2021 09:15</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="String">Qual sua avaliação para esse atendimento?</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">10</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String"></Data></Cell>
+			</Row>
+			<Row>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">87084</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">Público</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="String">Fixar IP em maquina</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="String">CEGERO</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="String">Ronaldo Warmeling</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="String">Time A</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="String">Nicolas Costa</Data></Cell>
+				<Cell ss:StyleID="xls-style-4"><Data ss:Type="String">24/11/2021 16:20</Data></Cell>
+				<Cell ss:StyleID="xls-style-4"><Data ss:Type="String">26/11/2021 08:47</Data></Cell>
+				<Cell ss:StyleID="xls-style-4"><Data ss:Type="String">26/11/2021 11:06</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="String">Qual sua avaliação para esse atendimento?</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">10</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String"></Data></Cell>
+			</Row>
+			<Row>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">87217</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">Público</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="String">CRIAÇÃO DE USUÁRIO E LIBERAÇÃO DE PASTA ESPECÍFICA - SAMBA</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="String">Budny</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="String">Caio Campos</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="String">Time N1 (+S)</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="String">Matheus da Silva Santos</Data></Cell>
+				<Cell ss:StyleID="xls-style-4"><Data ss:Type="String">30/11/2021 14:38</Data></Cell>
+				<Cell ss:StyleID="xls-style-4"><Data ss:Type="String">30/11/2021 14:52</Data></Cell>
+				<Cell ss:StyleID="xls-style-4"><Data ss:Type="String">06/12/2021 15:19</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="String">Qual sua avaliação para esse atendimento?</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">10</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String"></Data></Cell>
+			</Row>
+			<Row>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">87188</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">Público</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="String">Backup - Erro</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="String">Mademil Fundição Ltda</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="String">Marcell Minatto Michels</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="String">Time N1 (+S)</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="String">Matheus da Silva Santos</Data></Cell>
+				<Cell ss:StyleID="xls-style-4"><Data ss:Type="String">29/11/2021 16:12</Data></Cell>
+				<Cell ss:StyleID="xls-style-4"><Data ss:Type="String">30/11/2021 14:32</Data></Cell>
+				<Cell ss:StyleID="xls-style-4"><Data ss:Type="String">16/12/2021 10:56</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="String">Qual sua avaliação para esse atendimento?</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">10</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String"></Data></Cell>
+			</Row>
+			<Row>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">87218</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">Público</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="String">Expandir /bkp01</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="String">Mademil Fundição Ltda</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="String">Marcell Minatto Michels</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="String">Time N1 (+S)</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="String">Matheus da Silva Santos</Data></Cell>
+				<Cell ss:StyleID="xls-style-4"><Data ss:Type="String">30/11/2021 14:38</Data></Cell>
+				<Cell ss:StyleID="xls-style-4"><Data ss:Type="String">30/11/2021 14:42</Data></Cell>
+				<Cell ss:StyleID="xls-style-4"><Data ss:Type="String">30/11/2021 15:07</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="String">Qual sua avaliação para esse atendimento?</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">10</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">Muito bom! </Data></Cell>
+			</Row>
+			<Row>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">87131</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">Público</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="String">desbloquear usuário no zabix</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="String">Servitech Serviços Téc. Repres. Ltda</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="String">Eduardo Amante</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="String">Time N1 (+S)</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="String">Emanuel Douglas</Data></Cell>
+				<Cell ss:StyleID="xls-style-4"><Data ss:Type="String">26/11/2021 08:30</Data></Cell>
+				<Cell ss:StyleID="xls-style-4"><Data ss:Type="String">29/11/2021 11:35</Data></Cell>
+				<Cell ss:StyleID="xls-style-4"><Data ss:Type="String">29/11/2021 13:01</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="String">Qual sua avaliação para esse atendimento?</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">10</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String"></Data></Cell>
+			</Row>
+			<Row>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">87018</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">Público</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="String">Acesso ao Whatsapp</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="String">Delp</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="String">Vinicius Martins Santos</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="String">Time A</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="String">Daniel Cardoso Queiroz</Data></Cell>
+				<Cell ss:StyleID="xls-style-4"><Data ss:Type="String">22/11/2021 14:41</Data></Cell>
+				<Cell ss:StyleID="xls-style-4"><Data ss:Type="String">23/11/2021 09:11</Data></Cell>
+				<Cell ss:StyleID="xls-style-4"><Data ss:Type="String">24/11/2021 08:44</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="String">Qual sua avaliação para esse atendimento?</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">10</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String"></Data></Cell>
+			</Row>
+			<Row>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">87138</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">Público</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="String">spam </Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="String">Tidão</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="String">Edilson</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="String">Time A</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="String">Felipe Souza Baptista</Data></Cell>
+				<Cell ss:StyleID="xls-style-4"><Data ss:Type="String">26/11/2021 11:29</Data></Cell>
+				<Cell ss:StyleID="xls-style-4"><Data ss:Type="String">26/11/2021 17:02</Data></Cell>
+				<Cell ss:StyleID="xls-style-4"><Data ss:Type="String">29/11/2021 08:27</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="String">Qual sua avaliação para esse atendimento?</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">10</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String"></Data></Cell>
+			</Row>
+			<Row>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">87125</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">Público</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="String">Problema com acesso ao servidor do Tasy</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="String">Hospital de Caridade</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="String">Hospital de Caridade</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="String">Time A</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="String">Felipe Souza Baptista</Data></Cell>
+				<Cell ss:StyleID="xls-style-4"><Data ss:Type="String">25/11/2021 16:49</Data></Cell>
+				<Cell ss:StyleID="xls-style-4"><Data ss:Type="String">26/11/2021 11:08</Data></Cell>
+				<Cell ss:StyleID="xls-style-4"><Data ss:Type="String">26/11/2021 12:42</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="String">Qual sua avaliação para esse atendimento?</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">10</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String"></Data></Cell>
+			</Row>
+			<Row>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">87036</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">Público</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="String">DMZ Roteador</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="String">Onix</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="String">Rafael Rodrigues</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="String">Time A</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="String">Junior Selau Lummertz</Data></Cell>
+				<Cell ss:StyleID="xls-style-4"><Data ss:Type="String">23/11/2021 14:15</Data></Cell>
+				<Cell ss:StyleID="xls-style-4"><Data ss:Type="String">25/11/2021 17:09</Data></Cell>
+				<Cell ss:StyleID="xls-style-4"><Data ss:Type="String">25/11/2021 17:09</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="String">Qual sua avaliação para esse atendimento?</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">10</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String"></Data></Cell>
+			</Row>
+			<Row>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">87102</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">Público</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="String">sobre backup</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="String">Palácio das tintas</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="String">Lucas de Medeiros</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="String">Time A</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="String">Junior Selau Lummertz</Data></Cell>
+				<Cell ss:StyleID="xls-style-4"><Data ss:Type="String">25/11/2021 09:29</Data></Cell>
+				<Cell ss:StyleID="xls-style-4"><Data ss:Type="String">30/11/2021 11:35</Data></Cell>
+				<Cell ss:StyleID="xls-style-4"><Data ss:Type="String">30/11/2021 12:02</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="String">Qual sua avaliação para esse atendimento?</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">10</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String"></Data></Cell>
+			</Row>
+			<Row>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">87032</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">Público</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="String">Re: Convite para a pesquisa de satisfação</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="String">LB2</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="String">gabriel.rigo@lb2.com.br</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="String">Time A</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="String">Junior Selau Lummertz</Data></Cell>
+				<Cell ss:StyleID="xls-style-4"><Data ss:Type="String">23/11/2021 11:38</Data></Cell>
+				<Cell ss:StyleID="xls-style-4"><Data ss:Type="String">26/11/2021 11:13</Data></Cell>
+				<Cell ss:StyleID="xls-style-4"><Data ss:Type="String">26/11/2021 11:16</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="String">Qual sua avaliação para esse atendimento?</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">10</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">Pessoal muito atencioso e disposto a solucionar os problemas, Parabéns!</Data></Cell>
+			</Row>
+		</Table>
+	</Worksheet>
+</Workbook>
