@@ -26,5 +26,6 @@ Route::get('/timedesucesso',[TimeDeSucesso::class, 'show'])->middleware('auth');
 Route::delete('/guardioes/{id}',[Guardioes::class, 'destroy'])->middleware('auth');
 Route::get('/guardioes/{id}' ,[Guardioes::class, 'edit'])->middleware('auth');
 Route::get('/timedesucesso/import',[TimeDeSucesso::class, 'import']);
+Route::get('/timedesucesso/show',[TimeDeSucesso::class, 'media']);
 
 require __DIR__.'/auth.php';

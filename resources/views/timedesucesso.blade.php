@@ -4,10 +4,30 @@
 
 @section('content')
 
+  @foreach ($data as $item)
+    <tr>
 
-<h1>Time de Sucesso</h1>
+        <td>Alexsandro</td>
+        <td>{{$item->total1}}</td>
+
+        <td>Daniel</td>
+        <td>{{$item->total2}}</td>
+
+        
+    </tr>
+  @endforeach
 
 
+  @foreach ($daniel as $item)
+    <tr>
+
+
+        <td>Daniel</td>
+        <td>{{$item->total2}}</td>
+
+        
+    </tr>
+  @endforeach
 
 
 @endsection
